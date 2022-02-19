@@ -17,6 +17,13 @@ header {
   width: 100%
 }
 
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  z-index:1
+}
+
 .logo {
   margin-right: auto;
   padding: 2% 0;
@@ -60,19 +67,14 @@ header {
   color: #51d720;
 }
 
-.sticky {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-  z-index:1
-}
+
 
 
 
 /* section hero image and cover text*/
 
 #hero-box{
-  height: 600px;
+  height: 550px;
   width: 100%;
   overflow: hidden;
 
@@ -171,7 +173,7 @@ header {
 }
 
 .photo {
-  max-width: 25%;
+  max-width: 16%;
   margin: 0 5px;
   position: relative;
 }
@@ -191,4 +193,45 @@ header {
   margin-top: 5px;
 }
 
+.photo:after {
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(black 70%, transparent);
+  transform: scale(1.1) rotate(180deg);
+}
 
+.lightbox {
+  /* by default lightbox objects stay hidden */
+  opacity: 0;
+  z-index: 0;
+  /* position and style */
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0%;
+  left: 0%;
+  background: rgba(0, 0, 0, .4);
+  transition: all .3s;
+}
+
+
+.photo{
+  z-index: 1;
+}
+
+.lightbox img {
+max-width: 70%;
+margin-top: 5%;
+}
+
+.lightbox:target {
+  /* unhide lightbox */
+  opacity: 1;
+  z-index: 999;
+}

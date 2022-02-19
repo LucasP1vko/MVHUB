@@ -1,5 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:wght@300;500;600&display=swap');
+
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #000;
+  height: 15vh;
+  width: 100%
+}
+
+.logo {
+  margin-right: auto;
+  padding: 2% 0;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+
+}
+
+.nav__links a, a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #51d720;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  z-index:1
+}
+
+
+
+/* section hero image and cover text*/
+
+#hero-box{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+
+  position: relative;
+}
+#hero-image {
+  background: url(/assets/images/HERO.jpg) no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 360px;
+  padding-bottom: 360px;
+/* 
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards; */
+
+}
+
+/* @keyframes hero-zoom {
+  from{
+      transform: scale(1);
   }
+  to{
+      transform: scale(1.1);
+  }
+} */
+
+/* cover text */
+
+
+
+
+#cover-text{
+  font-size: 150%;
+  font-family: montaga, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  width: 300px;
+  height: 200px;
+
+  padding-top: 40px;
+  padding-left: 10px;
+  background-color: rgba(81, 215, 32, .7);
+
+  bottom: 10%;
+  right: 10%;
+
+  position: absolute;}
+
+/* text block */
+
+.description-box {
+  width: 100%;
+  background-color: #000;
+  padding: 5%;
+  margin: 0 auto;
+  text-align: justify;
+}
+.description-box p {
+  font-family: montaga, sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 30px;
+  color: #a5b6bc;
+}
+
+#first-character {
+  font-family: montaga;
+  float: left;
+  font-size: 105px;
+  line-height: 80px;
+  padding: 4px 8px 0 3px;
+
+}

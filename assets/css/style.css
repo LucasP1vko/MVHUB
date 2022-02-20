@@ -21,7 +21,7 @@ header {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-  z-index:1
+  z-index:3
 }
 
 .logo {
@@ -74,7 +74,7 @@ header {
 /* section hero image and cover text*/
 
 #hero-box{
-  height: 550px;
+  height: 500px;
   width: 100%;
   overflow: hidden;
 
@@ -173,7 +173,7 @@ header {
 }
 
 .photo {
-  max-width: 16%;
+  max-width: 15%;
   margin: 0 5px;
   position: relative;
 }
@@ -208,6 +208,7 @@ header {
   /* by default lightbox objects stay hidden */
   opacity: 0;
   z-index: 0;
+  margin-left: 100%;
   /* position and style */
   display: block;
   position: fixed;
@@ -226,12 +227,28 @@ header {
 }
 
 .lightbox img {
-max-width: 70%;
+max-width: 60%;
 margin-top: 5%;
+margin-bottom: 5%;
 }
 
 .lightbox:target {
   /* unhide lightbox */
   opacity: 1;
   z-index: 999;
+  margin-left: 0;
 }
+
+footer {
+  
+  width: 100%;
+  height: 50%;
+}
+
+#scrollbar {
+  width:100%;
+  height: 100%;
+  background-image: url(assets/mvhub_slider/Audio_Fader_Slider_track.jpg);
+  
+}
+

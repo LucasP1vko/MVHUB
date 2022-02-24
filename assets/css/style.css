@@ -88,7 +88,7 @@ nav a{
   left:45%;
   width:10%;
   height:100%;
-  background:white;
+  background:#9d9d9d;
   border-radius: 4px;
   filter:blur(.5px);
   overflow: visisble;
@@ -143,12 +143,13 @@ nav a{
 }
 .name{
   position:absolute;
-  top:100%;
-  left:8%;
-  color:#fff;
+  top:110%;
+  left:4%;
+  color: #a5b6bc;
   transition:all 1.5s ease;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-family: monsterrat, sans-serif;
+  text-transform: uppercase
 }
 
 
@@ -247,7 +248,7 @@ nav a{
   position: relative;
   background: #000;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   text-align: center;
 }
 
@@ -327,9 +328,9 @@ margin-bottom: 5%;
 }
 
 footer {
-  display: flex;
-  width: 100%;
-  height: 30%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+ 
 }
 
 

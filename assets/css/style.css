@@ -14,8 +14,11 @@ header {
   align-items: center;
   padding: 30px 10%;
   background-color: #000;
-  height: 15vh;
+  height: 18%;
   width: 100%
+}
+@media screen {
+  
 }
 
 .sticky {
@@ -32,19 +35,20 @@ header {
 
 nav {
   height: 100%;
+  top:-10%;
   position: relative;
   display: flex;
 }
 
 
 nav a{
-  padding: 20px;
+  padding: 3em;
 }
 
 #link {
-  width:20%;
+  width:30%;
   height:100%;
-  color:purple;
+  color:#fff;
   position:relative;
   display:inline-block;
   transition:all .5s ease;
@@ -56,8 +60,13 @@ nav a{
   top:7%;
 }
 #link:hover .name{
-  color:white;
+  color:rgb(42, 236, 52);
 }
+#link:hover .thumb .iconbox ion-icon{
+  color:rgb(42, 236, 52);
+  filter: drop-shadow(0 0 5px rgb(188, 255, 194));
+}
+
 .track_container {
   width:100%;
   height: 110%;
@@ -133,13 +142,18 @@ nav a{
   background: linear-gradient(#dbdae1, #a3aaba);
 }
 
+.iconbox ion-icon {
+  color:#fff;
+  font-size: 1em;
+  transition: 1.5s ease;
+}
 .name{
   position:absolute;
-  top:95%;
-  left:0;
-  color:green;
+  top:100%;
+  left:20%;
+  color:#fff;
   transition:all 1.5s ease;
-  font-size: larger;
+  font-size: 1.5em;
 }
 
 

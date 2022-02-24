@@ -330,7 +330,14 @@ margin-bottom: 5%;
 footer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
- 
+  background: url(/assets/mv-gallery/) no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+footer > div {
 }
 
 

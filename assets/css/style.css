@@ -31,7 +31,6 @@ header {
 .logo {
   margin-right: auto;
   padding: 2% 0;
-  background: url('..assets/images/LOGO_MVHUB_BLACK.jpg') alt="mv hub logo";
 }
 
 nav {
@@ -329,7 +328,7 @@ margin-bottom: 5%;
 footer {
   height:45vh;
   background-color: black;
-  background-image: url('../assets/images/footerbg.jpg');
+  background: url('../assets/images/footerbg.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 40% 0;

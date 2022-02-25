@@ -169,7 +169,7 @@ nav a{
   position: relative;
 }
 #hero-image {
-  background: url('../assets/images/HERO.jpg') no-repeat center center;
+  background: url('../images/HERO.jpg') no-repeat center center;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -213,7 +213,7 @@ nav a{
 .description-box p {
   font-family: montaga, sans-serif;
   font-weight: 300;
-  font-size: 21px;
+  font-size: 1.5em;
   line-height: 30px;
   color: #a5b6bc;
 }
@@ -326,12 +326,16 @@ margin-bottom: 5%;
 } */
 
 footer {
-  height:45vh;
+  height:30vh;
   background-color: black;
-  background: url('../assets/images/footerbg.jpg');
-  background-size: contain;
+  width: 100%;
+}
+
+#footer_background {
+  /* background: url(/assets/images/footerbg.jpg); */
+  background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: 40% 0;
+  background-position: center;
   position:relative;
 }
 

@@ -169,7 +169,7 @@ nav a{
   position: relative;
 }
 #hero-image {
-  background: url('../images/HERO.jpg') no-repeat center center;
+  background: url('../assets/images/HERO.jpg') no-repeat center center;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -328,15 +328,12 @@ margin-bottom: 5%;
 footer {
   height:30vh;
   background-color: black;
-  width: 100%;
-}
-
-#footer_background {
-  /* background: url(/assets/images/footerbg.jpg); */
+  background: url(/assets/images/footerbg.jpg);
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
   position:relative;
+  width: 100%;
 }
 
 .footer_logo{

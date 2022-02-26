@@ -23,12 +23,18 @@ header {
   header {
     justify-content: center;
     align-items: center;
+    height: 50%;
   }
 header > nav {
   display:none;
 }  
 .logo{
-
+  margin-left: auto;
+}
+.cover_text {
+  width: 70%;
+  height: 150px;
+  font-size: 2rem;
 }
 }
 
@@ -202,8 +208,8 @@ nav a{
 
 
 
-#cover-text {
-  font-size: 130%;
+.cover_text {
+  font-size: 140%;
   font-family: monsterrat, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;

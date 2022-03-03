@@ -17,13 +17,19 @@ header {
   height: 20%;
   width: 100%
 }
+
+.nav_mobile {
+  display: none;
+}
+
 /* header media queries */
 
 @media screen and (max-width:800px)  {
   header {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 130px;
   }
 header > nav {
   display:none;
@@ -36,10 +42,21 @@ header > nav {
   height: 150px;
   font-size: 2rem;
 }
+
+.nav_mobile{
+  display:flex;
+}
+
+.nav_links {
+  display: flex;
+  padding: 0 10px;
+}
+
+
+
 }
 
 .sticky {
-	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
   z-index:10;
@@ -64,11 +81,7 @@ nav a{
   padding: 3em 2em;
 }
 
-.nav_mobile{
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
 
 #link {
   width:30%;
@@ -209,12 +222,12 @@ nav a{
 
 
 .cover_text {
-  font-size: 140%;
+  font-size: 1.35rem;
   font-family: monsterrat, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
 
-  width: 50%;
+  width: 55%;
   height: 70px;
   border-radius: 25px 0 0 25px;
   padding-top: 5px;
@@ -389,8 +402,7 @@ position: absolute;
   left:5%;
   top:65%;
   height: 20%;
-  width: 45%;
-  align-items: center;
+  width: 40%;
   justify-items:center;
   text-align:center;
   font-family:arial;
@@ -407,11 +419,10 @@ position: absolute;
   display:flex;
   align-items:center;
   justify-content:center;
-  left:65%;
+  left:55%;
   top:15%;
   height: 60%;
-  width: 45%;
-  align-items: center;
+  width: 40%;
   justify-items:center;
   text-align:center;
   font-family:arial;
@@ -428,10 +439,10 @@ position: absolute;
   display:flex;
   
   justify-content:space-evenly;
-  left:67%;
+  left:58%;
   top:65%;
   height:20%;
-  width: 45%;
+  width: 40%;
   align-items: center;
   justify-items:center;
   text-align:center;
@@ -449,10 +460,10 @@ position: absolute;
     
 }
 .social-networks > li {
-    display: inline;
+    display: inline-flex;
 }
 
-.social-networks i {
+.social-networks ion-icon {
     font-size: 160%;
     margin:  1%;
     padding: 5%;

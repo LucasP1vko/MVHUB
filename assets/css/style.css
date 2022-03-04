@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Cormorant+Garamond:wght@500&family=Dancing+Script:wght@600&family=Montserrat:wght@300;500;600&display=swap');
 
 
 * {
@@ -154,7 +154,7 @@ nav a {
 .name {
   position: absolute;
   top: 110%;
-  left: 10%;
+  left: 1%;
   color: #a5b6bc;
   transition: all 1.5s ease;
   font-size: 1.1em;
@@ -211,9 +211,9 @@ nav a {
 
 .cover_text {
   font-size: 1.35rem;
-  font-family: monsterrat, sans-serif;
+  font-family: dancing script, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 10px;
 
   width: 55%;
   height: 70px;
@@ -356,13 +356,21 @@ nav a {
 
 footer {
   height: 30vh;
-  background-color: black;
-  background: url(/assets/images/footerbg.jpg);
+  background-color: #859194;
+  background: url(/assets/images/footer_bg_blur.jpg);
   background-size: auto 100%;
   background-repeat: repeat-x;
   background-position: center;
   position: relative;
   width: 100%;
+}
+
+.text_footer {
+  font-weight: bold;
+  color: #f1f1f1;
+  font-size: 1.1em;
+  font-family: cormorant garamond, sans-serif;
+  text-transform: uppercase
 }
 
 .footer_logo {
@@ -378,12 +386,12 @@ footer {
   text-align: center;
   font-family: arial;
 
-  background: rgb(255, 255, 255, 0.4);
-  box-shadow: 0 8px 32px 0 rgba(140, 163, 158, 0.37);
+  background: rgba(2, 1, 2, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(2, 1, 2, 0.37);
   backdrop-filter: blur(15.5px);
   -webkit-backdrop-filter: blur(15.5px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.726);
 }
 .background_footer_logo {
   position:relative;
@@ -414,17 +422,19 @@ footer {
   text-align: center;
   font-family: arial;
 
-  background: rgba(3, 255, 74, 0.1);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(2, 1, 2, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(2, 1, 2, 0.37);
   backdrop-filter: blur(15.5px);
   -webkit-backdrop-filter: blur(15.5px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.726);
 }
+
 
 .footer_author {
   position: absolute;
   display: flex;
+  flex-direction:column;
   align-items: center;
   justify-content: center;
   left: 53%;
@@ -433,15 +443,17 @@ footer {
   width: 45%;
   justify-items: center;
   text-align: center;
-  font-family: arial;
 
-  background: rgba(3, 255, 74, 0.1);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(2, 1, 2, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(2, 1, 2, 0.37);
   backdrop-filter: blur(15.5px);
   -webkit-backdrop-filter: blur(15.5px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.726);
 }
+
+
+
 
 .footer_social {
   position: absolute;
@@ -455,14 +467,13 @@ footer {
   align-items: center;
   justify-items: center;
   text-align: center;
-  font-family: arial;
 
-  background: rgba(3, 255, 74, 0.1);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(2, 1, 2, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(2, 1, 2, 0.37);
   backdrop-filter: blur(15.5px);
   -webkit-backdrop-filter: blur(15.5px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.726);
 }
 
 .social-networks {
@@ -475,10 +486,10 @@ footer {
 }
 
 .social-networks ion-icon {
-  font-size: 160%;
+  font-size: 2rem;
   margin: 1%;
   padding: 5%;
-  color: #3a3a3a;
+  color: #020102;
 }
 
 
@@ -505,6 +516,8 @@ footer {
     height: 70px;
     font-size: 1.5rem;
     padding-left: 45px;
+    letter-spacing: 4px;
+
   }
 
   .nav_mobile {
@@ -514,6 +527,16 @@ footer {
   .nav_links {
     display: flex;
     padding: 0 10px;
+  }
+
+  .footer_copyrights p {
+    font-size: 1.0em;
+  }
+
+  .vl {
+    border-left: 1px solid #020102;
+    height: 80%;
+    spacing:2px;
   }
 
 }

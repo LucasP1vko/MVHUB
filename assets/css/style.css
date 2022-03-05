@@ -383,7 +383,7 @@ nav a {
 footer {
   height: 30vh;
   background-color: #859194;
-  background: url('/assets/images/footer_bg_blur.jpg');
+  background: url('../images/footer_bg_blur.jpg');
   background-size: auto 100%;
   background-repeat: repeat-y;
   background-position: center;
@@ -426,7 +426,7 @@ footer {
   position: relative;
   top: 0;
   left: 0;
-  background: url(/assets/images/logo_mv_white.png);
+  background: url('../images/logo_mv_white.png');
   background-size: cover 80%;
   background-repeat: no-repeat;
   background-position: center;

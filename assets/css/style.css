@@ -26,6 +26,10 @@ header {
   display: none;
 }
 
+.name_mobile {
+  text-decoration: none;
+}
+
 
 .sticky {
   position: sticky;
@@ -121,7 +125,6 @@ nav a {
 
 .track hr {
   height: 0.5%;
-  /* background-color: #9d9d9d; */
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #9d9d9d, rgba(0, 0, 0, 0));
   border: 0px none;
   width: 600%;
@@ -375,6 +378,7 @@ nav a {
   margin-left: 0;
 }
 
+/* footer */
 
 footer {
   height: 30vh;
@@ -591,6 +595,44 @@ footer {
     padding: 4px 4px 0 3px;
 
   }
+  
+/* gallery media queries*/
+
+.gallery-body {
+  height: auto;
+ }
+
+.gallery-body h1 {
+  color: #a5b6bc;
+  font-family: monsterrat, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.photo {
+  max-width: 60%;
+  margin: 0 auto -40px auto;
+  position: relative;
+}
+
+.thumbnail,
+.reflection {
+  width: 100%;
+}
+
+.gallery-wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.lightbox img {
+  max-width: 100%;
+}
+
 
 }
 

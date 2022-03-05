@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+body {
+  background: #000;
+}
+
 header {
   position: relative;
   display: flex;
@@ -187,6 +191,7 @@ nav a {
 /* section hero image and cover text*/
 
 #hero-box {
+  background-color: #000;
   height: 60vh;
   width: 100%;
   overflow: hidden;
@@ -384,19 +389,21 @@ footer {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.726);
 }
+
 .background_footer_logo {
-  position:relative;
-  top:0;
-  left:0;
+  position: relative;
+  top: 0;
+  left: 0;
   background: url(/assets/images/logo_mv_white.png);
   background-size: cover 80%;
   background-repeat: no-repeat;
   background-position: center;
-  width:85%;
-  height:50%
+  width: 85%;
+  height: 50%
 }
+
 .footer_logo h3 {
-  padding:1% 0 3% 0;
+  padding: 1% 0 3% 0;
 }
 
 .footer_copyrights {
@@ -425,7 +432,7 @@ footer {
 .footer_author {
   position: absolute;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   left: 53%;
@@ -541,7 +548,7 @@ footer {
   .vl {
     border-left: 1px solid #020102;
     height: 80%;
-    spacing:2px;
+    spacing: 2px;
   }
 
   .description-box p {
@@ -549,15 +556,59 @@ footer {
     font-size: 1.2rem;
     line-height: 20px;
   }
-  
+
   #first-character {
     font-size: 105px;
     line-height: 80px;
     padding: 4px 4px 0 3px;
-  
+
   }
 
 }
 
 
 /* end of media queries */
+
+
+/* specs page */
+
+#hero-box_sub {
+  background-color: #000;
+  height: 30vh;
+  width: 100%;
+  overflow: hidden;
+
+  position: relative;
+}
+
+#hero-image_specs {
+  background: url('../images/wordcloud2_edited.jpg') no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 360px;
+  padding-bottom: 360px;
+
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin: 2em auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: montaga, sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 30px;
+  color: #a5b6bc;
+}

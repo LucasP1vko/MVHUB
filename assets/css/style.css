@@ -36,8 +36,6 @@ header {
 .logo {
   margin-right: auto;
   padding: 2% 0;
-  /* align-items: center;
-  justify-content: center; */
 }
 
 nav {
@@ -54,7 +52,7 @@ nav a {
 
 
 
-#link {
+.link {
   width: 30%;
   height: 100%;
   color: #fff;
@@ -65,18 +63,34 @@ nav a {
   left: 0;
 }
 
-#link:hover .thumb {
+.link:hover .thumb {
   top: 7%;
 }
 
-#link:hover .name {
+.link:hover .name {
   color: rgb(42, 236, 52);
 }
 
-#link:hover .thumb .iconbox ion-icon {
+.link:hover .thumb .iconbox ion-icon {
   color: rgb(42, 236, 52);
   filter: drop-shadow(0 0 5px rgb(188, 255, 194));
 }
+
+/* active link on current page */
+
+#active >.thumb {
+    top: 7%;
+  }
+  
+  #active > .name {
+    color: rgb(42, 236, 52);
+  }
+  
+  #active > .thumb .iconbox ion-icon {
+    color: rgb(42, 236, 52);
+    filter: drop-shadow(0 0 5px rgb(188, 255, 194));
+  }
+
 
 .track_container {
   width: 100%;
@@ -182,6 +196,10 @@ nav a {
   color: rgb(42, 236, 52);
 }
 
+#active_mobile > .name_mobile {
+  color: rgb(42, 236, 52);
+}
+
 
 
 
@@ -216,7 +234,7 @@ nav a {
 
 .cover_text {
   font-size: 1.35rem;
-  font-family: dancing script, sans-serif;
+  font-family: "dancing script", "sans-serif";
   text-transform: uppercase;
   letter-spacing: 10px;
 
@@ -365,7 +383,7 @@ footer {
   letter-spacing: 2px;
   color: #f1f1f1;
   font-size: 1.1em;
-  font-family: cormorant garamond, sans-serif;
+  font-family: "cormorant garamond", "sans-serif";
   text-transform: uppercase
 }
 
@@ -380,7 +398,7 @@ footer {
   height: 60%;
   width: 45%;
   text-align: center;
-  font-family: arial;
+  font-family: "arial";
 
   background: rgba(2, 1, 2, 0.4);
   box-shadow: 0 8px 32px 0 rgba(2, 1, 2, 0.37);
@@ -598,6 +616,7 @@ footer {
   width:100%;
   max-width: 90vw;
   margin: 2% auto;
+  
 }
 
 
@@ -608,13 +627,13 @@ footer {
   display: flex;
   flex-wrap: wrap;
   border-style: solid;
-  border-bottom: #a5b6bc;
 }
 
 .box {
-height: 25px;
+height: auto;
 min-width: 250px;
-flex-grow: 1;
+width: 40vw;
+flex-grow: 2;
 
   font-family: montaga, sans-serif;
   font-weight: 100;
@@ -642,4 +661,10 @@ flex-grow: 1;
   color: #ffffff;
 
   text-align: center;
+}
+
+.wrapper hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #a5b6bc, rgba(0, 0, 0, 0));
 }

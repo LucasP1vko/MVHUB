@@ -383,7 +383,7 @@ nav a {
 footer {
   height: 30vh;
   background-color: #859194;
-  background: url(/assets/images/footer_bg_blur.jpg);
+  background: url('/assets/images/footer_bg_blur.jpg');
   background-size: auto 100%;
   background-repeat: repeat-y;
   background-position: center;

@@ -78,18 +78,18 @@ nav a {
 
 /* active link on current page */
 
-#active >.thumb {
-    top: 7%;
-  }
-  
-  #active > .name {
-    color: rgb(42, 236, 52);
-  }
-  
-  #active > .thumb .iconbox ion-icon {
-    color: rgb(42, 236, 52);
-    filter: drop-shadow(0 0 5px rgb(188, 255, 194));
-  }
+#active>.thumb {
+  top: 7%;
+}
+
+#active>.name {
+  color: rgb(42, 236, 52);
+}
+
+#active>.thumb .iconbox ion-icon {
+  color: rgb(42, 236, 52);
+  filter: drop-shadow(0 0 5px rgb(188, 255, 194));
+}
 
 
 .track_container {
@@ -116,8 +116,18 @@ nav a {
   background: #9d9d9d;
   border-radius: 4px;
   filter: blur(.5px);
-  overflow: visisble;
+  overflow-x: visible;
 }
+
+.track hr {
+  height: 0.5%;
+  /* background-color: #9d9d9d; */
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #9d9d9d, rgba(0, 0, 0, 0));
+  border: 0px none;
+  width: 600%;
+  margin: 5px 0 0 -250%;
+}
+
 
 .thumb {
   position: absolute;
@@ -196,7 +206,7 @@ nav a {
   color: rgb(42, 236, 52);
 }
 
-#active_mobile > .name_mobile {
+#active_mobile>.name_mobile {
   color: rgb(42, 236, 52);
 }
 
@@ -566,7 +576,7 @@ footer {
   .vl {
     border-left: 1px solid #020102;
     height: 80%;
-    spacing: 2px;
+    padding: 2px;
   }
 
   .description-box p {
@@ -613,10 +623,10 @@ footer {
 }
 
 .wrapper {
-  width:100%;
+  width: 100%;
   max-width: 90vw;
   margin: 2% auto;
-  
+
 }
 
 
@@ -630,10 +640,10 @@ footer {
 }
 
 .box {
-height: auto;
-min-width: 250px;
-width: 40vw;
-flex-grow: 2;
+  height: auto;
+  min-width: 250px;
+  width: 40vw;
+  flex-grow: 2;
 
   font-family: montaga, sans-serif;
   font-weight: 100;
@@ -650,9 +660,9 @@ flex-grow: 2;
 }
 
 .box_top {
-height: 25px;
-min-width: 250px;
-flex-grow: 1;
+  height: 25px;
+  min-width: 250px;
+  flex-grow: 1;
 
   font-family: montaga, sans-serif;
   font-weight: 100;

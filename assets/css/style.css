@@ -756,3 +756,21 @@ footer {
 
   position: relative;
 }
+
+/* video page */
+
+
+.box_video {
+  height: auto;
+  min-width: 460px;
+  width: 40vw;
+  flex-grow: 2;
+
+  font-family: montaga, sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #a5b6bc;
+
+  text-align: center;
+}

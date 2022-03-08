@@ -175,13 +175,39 @@
     <!-- hero image -->
 
     <section id="hero-box_sub">
-        <div id="hero-image_specs"></div>
+        <div id="hero-image_contact"></div>
 
     </section>
 
     <!-- contact form -->
 
-    <section class="form-section">
+    <form method="POST" action="https://www.pixpa.com/contact-us" accept-charset="UTF-8" class="contact-form">
+
+        <input type="text" required="" placeholder="Name" name="name" class="contact-form-field">
+        <input type="email" required="" placeholder="Your email address" class="contact-form-field" name="email">
+        
+
+        
+          <select required="" name="purpose" class="contact-form-field">
+
+            <option value=""> Select a Purpose </option>
+            <option> General Questions </option>
+            <option> Need help with MV </option>
+            <option> Content idea </option>
+            <option> Advertising / Press Inquiries </option>
+            <option> Business Inquiries </option>
+            <option> Feedback </option>
+            
+          </select>
+        
+        <input type="text" required="" placeholder="Subject" class="contact-form-field" name="subject">
+        <textarea required="" placeholder="Message" id="comments" class="contact-form-field" name="comments"></textarea>
+                      
+        <button name="login" type="submit" class="submit-button">Submit</button>
+
+      </form>
+
+    <!-- <section class="form-section">
         <form action="https://formdump.codeinstitute.net/" method="post">
           <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>   
             
@@ -209,7 +235,7 @@
                   <input type="submit" value="Let's Run!">
                   
               </form>
-          </section>
+          </section> -->
 
     <!-- FOOTER SECTION -->
 

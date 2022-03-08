@@ -644,7 +644,7 @@ footer {
 
 #hero-box_sub {
   background-color: #000;
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   overflow: hidden;
 
@@ -779,7 +779,7 @@ footer {
   background: url('../images/wordcloud_video2.jpg') no-repeat center center;
   width: 100%;
   height: 100%;
-  transform: scale(0.5) translate(0%, -65%);
+  transform: scale(0.5) translate(0%, -55%);
   background-size: cover;
   overflow: hidden;
   background-attachment: fixed;
@@ -792,10 +792,10 @@ footer {
 /* Contact page */
 
 #hero-image_contact {
-  background: url('../images/wordcloud_video2.jpg') no-repeat center center;
+  background: url('../images/wordcloud_contact.jpg') no-repeat center center;
   width: 100%;
   height: 100%;
-  transform: scale(0.5) translate(0%, -65%);
+  transform: scale(0.5) translate(0%, -55%);
   background-size: cover;
   overflow: hidden;
   background-attachment: fixed;
@@ -805,54 +805,34 @@ footer {
 
 }
 
-.form-section {
-  clear: left;
-  background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 900px;
+.contact-form {
+  width:40%;
+  display: flex;
+  flex-direction: column;
+  margin:5% auto 5% auto;
 }
 
-.signup-form {
-  margin: 150px 10% 0 0;
-  color: #fff;
-  background-color: rgba(60, 60, 60, 0.6);
-  max-width: 400px;
-  position: absolute;
-  left: 10%;
-  padding: 30px;
-}
-
-.signup-form h2 {
-  color: #fafafa;    
-  margin-bottom:20px;
-}
-
-.text-input {
-  background: transparent;
-  color: #fafafa;
-  width: 100%;
-  height: 25px;
-  margin: 5px 0 20px 0;
-  border: 1px solid #fafafa;
-  border-radius: 2px;
-}
-.text-input:hover {
-   border-color:  #f16c6b;
-}
-
-.join-button {
+.submit-button {
   margin-top: 20px;
   border-radius: 2px;
   padding: 15px 32px;
   text-align: center;
   font-size: 100%;
-  background-color: #f16c6b;
+  background-color: #51d720;
   color: #fafafa;
   display: block;
 }
 
-.join-button:hover {
-  background-color: #fafafa;
-  color: #f16c6b;
+.contact-form-field {
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 50px;
+  margin: 5px 0 20px 0;
+  border: 2px solid #fafafa;
+  border-radius: 50vw;
+  padding: 0 10px 0 10px
+}
+.contact-form-field:hover {
+   border-color:  #51d720;
 }

@@ -76,8 +76,8 @@ nav a {
 }
 
 .link:hover .thumb .iconbox ion-icon {
-  color: rgb(42, 236, 52);
-  filter: drop-shadow(0 0 5px rgb(188, 255, 194));
+  color: rgb(0, 0, 0);
+  filter: drop-shadow(0 0 5px rgb(66, 66, 66));
 }
 
 /* active link on current page */
@@ -91,8 +91,8 @@ nav a {
 }
 
 #active>.thumb .iconbox ion-icon {
-  color: rgb(42, 236, 52);
-  filter: drop-shadow(0 0 5px rgb(188, 255, 194));
+  color: rgb(0, 0, 0);
+  filter: drop-shadow(0 0 5px rgb(66, 66, 66));
 }
 
 
@@ -177,7 +177,7 @@ nav a {
 
 .iconbox ion-icon {
   color: #a5b6bc;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   transition: 1.5s ease;
 }
 
@@ -214,172 +214,6 @@ nav a {
 
 
 
-
-
-
-
-/* section hero image and cover text*/
-
-#hero-box {
-  background-color: #000;
-  height: 60vh;
-  width: 100%;
-  overflow: hidden;
-
-  position: relative;
-}
-
-#hero-image {
-  background: url('../images/HERO.jpg') no-repeat center center;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  overflow: hidden;
-  background-attachment: fixed;
-  position: relative;
-  padding-top: 360px;
-  padding-bottom: 360px;
-
-}
-
-
-
-.cover_text {
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family: "monsterrat", "sans-serif";
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  text-align: center;
-
-  width: 55%;
-  height: 70px;
-  border-radius: 25px 0 0 25px;
-  padding-top: 5px;
-  padding-left: 55px;
-  background-color: rgba(81, 215, 32, .7);
-
-  bottom: 10%;
-  right: 0;
-
-  position: absolute;
-}
-
-/* text block */
-
-.description-box {
-  width: 100%;
-  background-color: #000;
-  padding: 5%;
-  margin: 0 auto;
-  text-align: justify;
-}
-
-.description-box p {
-  font-family: montaga, sans-serif;
-  font-weight: 300;
-  font-size: 1.5em;
-  line-height: 30px;
-  color: #fff;
-}
-
-#first-character {
-  font-family: montaga;
-  float: left;
-  font-size: 105px;
-  line-height: 80px;
-  padding: 4px 8px 0 3px;
-
-}
-
-/* gallery */
-
-.gallery-body {
-  position: relative;
-  background: #000;
-  width: 100%;
-  height: 70vh;
-  text-align: center;
-  overflow: hidden;
-}
-
-.gallery-body h1 {
-  color: #fff;
-  font-family: "dancing script", sans-serif;
-  font-weight: 300;
-  font-size: 30px;
-  padding-bottom: 15px;
-}
-
-.photo {
-  max-width: 15%;
-  margin: 0 5px;
-  position: relative;
-}
-
-.photo:after {
-  content: "";
-  position: absolute;
-  top: 55%;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background: linear-gradient(black 70%, transparent);
-  transform: scale(1.1) rotate(180deg);
-}
-
-.thumbnail,
-.reflection {
-  width: 100%;
-}
-
-.gallery-wrap {
-  display: flex;
-  justify-content: center;
-}
-
-.reflection {
-  opacity: .5;
-  transform: rotateX(180deg);
-  margin-top: 5px;
-}
-
-
-
-.lightbox {
-  /* by default lightbox objects stay hidden */
-  opacity: 0;
-  z-index: 0;
-  margin-left: 100%;
-  /* position and style */
-  display: block;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  top: 0%;
-  left: 0%;
-  background: rgba(0, 0, 0, .4);
-  transition: all .3s;
-}
-
-
-.photo {
-  z-index: 1;
-}
-
-.lightbox img {
-  max-width: 60%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.lightbox:target {
-  /* unhide lightbox */
-  opacity: 1;
-  z-index: 999;
-  margin-left: 0;
-}
 
 /* footer */
 
@@ -532,7 +366,421 @@ footer {
   color: #f1f1f1;
 }
 
+/* main page index */
 
+
+/* section hero image and cover text*/
+
+#hero-box {
+  background-color: #000;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+
+  position: relative;
+}
+
+#hero-image {
+  background: url('../images/HERO.jpg') no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 360px;
+  padding-bottom: 360px;
+
+}
+
+
+
+.cover_text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "monsterrat", "sans-serif";
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+
+  width: 55%;
+  height: 70px;
+  border-radius: 25px 0 0 25px;
+  padding-top: 5px;
+  padding-left: 55px;
+  background-color: rgba(81, 215, 32, .7);
+
+  bottom: 10%;
+  right: 0;
+
+  position: absolute;
+}
+
+/* text block */
+
+.index_h1 {
+  color: #fff;
+  font-family: "dancing script", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.description-box {
+  width: 100%;
+  background-color: #000;
+  padding: 5%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.description-box p {
+  font-family: montaga, sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 30px;
+  color: #fff;
+}
+
+#first-character {
+  font-family: montaga;
+  float: left;
+  font-size: 105px;
+  line-height: 80px;
+  padding: 4px 8px 0 3px;
+
+}
+
+/* specs page */
+
+
+/* section hero image*/
+
+#hero-image_specs {
+  background: url('../images/wordcloud20_edited.jpg') no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 360px;
+  padding-bottom: 360px;
+
+}
+
+#hero-box_sub {
+  background-color: #000;
+  height: 25vh;
+  width: 100vw;
+  overflow: hidden;
+
+  position: relative;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 90vw;
+  margin: 2% auto;
+
+}
+
+/* video page */
+
+#hero-image_video {
+  background: url('../images/wordcloud_video3.jpg') no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 360px;
+  padding-bottom: 360px;
+
+}
+
+.flex-container {
+  width: 100%;
+  height: fit-content;
+  background: #000;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+
+.box {
+  height: fit-content;
+  min-width: 250px;
+  /* width: 40vw; */
+  flex-grow: 2;
+
+  font-family: montaga, sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #a5b6bc;
+
+  text-align: center;
+}
+
+.flex-container_top {
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+}
+
+.box_top {
+  height: 25px;
+  min-width: 250px;
+  flex-grow: 1;
+
+  font-family: montaga, sans-serif;
+  font-weight: 100;
+  font-size: 1.1rem;
+  line-height: 30px;
+  color: #ffffff;
+
+  text-align: center;
+}
+
+.wrapper hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #a5b6bc, rgba(0, 0, 0, 0));
+}
+
+.box_video {
+  height: auto;
+  min-width: 460px;
+  width: 40vw;
+  flex-grow: 2;
+
+  font-family: montaga, sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #a5b6bc;
+
+  text-align: center;
+}
+
+
+
+/* gallery page */
+
+#hero-image_gallery {
+  background: url('../images/wordcloud_gallery_topx.jpg') no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 360px;
+  padding-bottom: 360px;
+
+}
+
+#hero-image_gallery_bottom {
+  background: url('../images/wordcloud_gallery_top2_edited.jpg') no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  overflow: hidden;
+  position: relative;
+
+
+}
+
+#hero-box_sub_bottom {
+  background-color: #000;
+  height: 50vh;
+  width: 100%;
+  overflow: hidden;
+
+  position: relative;
+}
+
+
+.gallery-body {
+  position: relative;
+  background: #000;
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.gallery-body h1 {
+  color: #fff;
+  font-family: "dancing script", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.photo {
+  max-width: 15%;
+  margin: 0 5px;
+  position: relative;
+}
+
+.photo:after {
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(black 70%, transparent);
+  transform: scale(1.1) rotate(180deg);
+}
+
+.thumbnail,
+.reflection {
+  width: 100%;
+}
+
+.gallery-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.reflection {
+  opacity: .5;
+  transform: rotateX(180deg);
+  margin-top: 5px;
+}
+
+
+
+.lightbox {
+  /* by default lightbox objects stay hidden */
+  opacity: 0;
+  z-index: 0;
+  margin-left: 100%;
+  /* position and style */
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0%;
+  left: 0%;
+  background: rgba(0, 0, 0, .4);
+  transition: all .3s;
+}
+
+
+.photo {
+  z-index: 1;
+}
+
+.lightbox img {
+  max-width: 60%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.lightbox:target {
+  /* unhide lightbox */
+  opacity: 1;
+  z-index: 999;
+  margin-left: 0;
+}
+
+
+/* Contact page */
+
+#hero-image_contact {
+  background: url('../images/wordcloud_contact3.jpg') no-repeat center center;
+  width: 100%;
+  height: 100%;
+  /* transform: scale(0.9); */
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 360px;
+  padding-bottom: 360px;
+
+}
+
+.contact_h1 {
+  color: #fff;
+  font-family: "dancing script", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.contact-form {
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  margin:5% auto 5% auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-button {
+  margin-top: 20px;
+  border: 2px solid #fafafa;
+  border-radius: 50vw;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: large;
+  background-color: #9d9d9d;
+  color: #fafafa;
+  display: block;
+}
+
+.submit-button:hover {
+  background-color: rgba(42, 236, 52);
+}
+
+.contact-form-field {
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 50px;
+  margin: 5px 0 20px 0;
+  border: 2px solid #fafafa;
+  border-radius: 50vw;
+  padding: 0 10px 0 10px
+}
+.contact-form-field:hover {
+   border-color:  #51d720;
+}
+
+.form_option_color {
+  background-color: #000000;
+}
+
+.contact-form-field-textarea{
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 50px;
+  border: 2px solid #fafafa;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px
+}
+
+/* Media queries for v small size */
+@media screen and (max-width:475px) {
+  .name_mobile {
+    padding: 0 2px 0 2px;
+    font-weight: 300;
+    font-size:1.4rem;
+    letter-spacing: -2px;
+  }
+  .name_mobile ion-icon {
+    display:none;
+  }
+}
 /* media queries > responsivness*/
 
 @media screen and (max-width:800px) {
@@ -652,6 +900,13 @@ footer {
   max-width: 100%;
 }
 
+/* contact form page querries */
+
+.contact-form {
+  width:90%;
+ 
+}
+
 
 }
 
@@ -659,199 +914,4 @@ footer {
 /* end of media queries */
 
 
-/* specs page */
 
-#hero-box_sub {
-  background-color: #000;
-  height: 40vh;
-  width: 100%;
-  overflow: hidden;
-
-  position: relative;
-}
-
-#hero-image_specs {
-  background: url('../images/wordcloud20_edited.jpg') no-repeat center center;
-  width: 100%;
-  height: 100%;
-  background-size: contain;
-  overflow: hidden;
-  background-attachment: fixed;
-  position: relative;
-  padding-top: 360px;
-  padding-bottom: 360px;
-
-}
-
-.wrapper {
-  width: 100%;
-  max-width: 90vw;
-  margin: 2% auto;
-
-}
-
-/* video page */
-
-.flex-container {
-  width: 100%;
-  height: fit-content;
-  background: #000;
-  display: flex;
-  flex-wrap: wrap;
-  border-style: solid;
-}
-
-.box {
-  height: fit-content;
-  min-width: 250px;
-  /* width: 40vw; */
-  flex-grow: 2;
-
-  font-family: montaga, sans-serif;
-  font-weight: 100;
-  font-size: 1rem;
-  line-height: 30px;
-  color: #a5b6bc;
-
-  text-align: center;
-}
-
-.flex-container_top {
-  background: rgba(255, 255, 255, 0.5);
-  display: flex;
-}
-
-.box_top {
-  height: 25px;
-  min-width: 250px;
-  flex-grow: 1;
-
-  font-family: montaga, sans-serif;
-  font-weight: 100;
-  font-size: 1.1rem;
-  line-height: 30px;
-  color: #ffffff;
-
-  text-align: center;
-}
-
-.wrapper hr {
-  border: 0;
-  height: 3px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #a5b6bc, rgba(0, 0, 0, 0));
-}
-
-/* gallery page */
-
-#hero-image_gallery {
-  background: url('../images/wordcloud_gallery_topx.jpg') no-repeat center center;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  overflow: hidden;
-  background-attachment: fixed;
-  position: relative;
-  padding-top: 360px;
-  padding-bottom: 360px;
-
-}
-
-#hero-image_gallery_bottom {
-  background: url('../images/wordcloud_gallery_top2_edited.jpg') no-repeat center center;
-  width: 100%;
-  height: 100%;
-  background-size: contain;
-  overflow: hidden;
-  position: relative;
-
-
-}
-
-#hero-box_sub_bottom {
-  background-color: #000;
-  height: 50vh;
-  width: 100%;
-  overflow: hidden;
-
-  position: relative;
-}
-
-/* video page */
-
-
-.box_video {
-  height: auto;
-  min-width: 460px;
-  width: 40vw;
-  flex-grow: 2;
-
-  font-family: montaga, sans-serif;
-  font-weight: 100;
-  font-size: 1rem;
-  line-height: 30px;
-  color: #a5b6bc;
-
-  text-align: center;
-}
-
-#hero-image_video {
-  background: url('../images/wordcloud_video2.jpg') no-repeat center center;
-  width: 100%;
-  height: 100%;
-  transform: scale(0.5) translate(0%, -55%);
-  background-size: cover;
-  overflow: hidden;
-  background-attachment: fixed;
-  position: relative;
-  padding-top: 360px;
-  padding-bottom: 360px;
-
-}
-
-/* Contact page */
-
-#hero-image_contact {
-  background: url('../images/wordcloud_contact.jpg') no-repeat center center;
-  width: 100%;
-  height: 100%;
-  transform: scale(0.5) translate(0%, -55%);
-  background-size: cover;
-  overflow: hidden;
-  background-attachment: fixed;
-  position: relative;
-  padding-top: 360px;
-  padding-bottom: 360px;
-
-}
-
-.contact-form {
-  width:40%;
-  display: flex;
-  flex-direction: column;
-  margin:5% auto 5% auto;
-}
-
-.submit-button {
-  margin-top: 20px;
-  border-radius: 2px;
-  padding: 15px 32px;
-  text-align: center;
-  font-size: 100%;
-  background-color: #51d720;
-  color: #fafafa;
-  display: block;
-}
-
-.contact-form-field {
-  background: transparent;
-  color: #fafafa;
-  width: 100%;
-  height: 50px;
-  margin: 5px 0 20px 0;
-  border: 2px solid #fafafa;
-  border-radius: 50vw;
-  padding: 0 10px 0 10px
-}
-.contact-form-field:hover {
-   border-color:  #51d720;
-}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Cormorant+Garamond:wght@500&family=Dancing+Script:wght@600&family=Montserrat:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Share+Tech+Mono&family=Cormorant+Garamond:wght@500&family=Dancing+Script:wght@600&family=Montserrat:wght@300;500;600&display=swap');
 
 
 * {
@@ -188,21 +188,20 @@ nav a {
   left: 1%;
   color: #a5b6bc;
   transition: all 1.5s ease;
-  font-size: 1.1em;
-  font-family: monsterrat, sans-serif;
-  text-transform: uppercase;
+  font-size: 1.3em;
+  font-family: "share tech mono", sans-serif;
+  /* text-transform: uppercase; */
 }
 
 .name_mobile {
   position: relative;
-  top: -20%;
-  left: 5%;
+  /* top: -20%;
+  left: 5%; */
   color: #a5b6bc;
   transition: all 0.5s ease;
-  font-size: 1.1em;
-  font-family: monsterrat, sans-serif;
+  font-size: 1.5em;
+  font-family: "share tech mono", sans-serif;
   text-transform: uppercase;
-  margin: 0 25%;
 }
 
 .name_mobile:hover {
@@ -246,10 +245,12 @@ nav a {
 
 
 .cover_text {
-  font-size: 1.35rem;
-  font-family: "dancing script", "sans-serif";
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "monsterrat", "sans-serif";
   text-transform: uppercase;
   letter-spacing: 10px;
+  text-align: center;
 
   width: 55%;
   height: 70px;
@@ -279,7 +280,7 @@ nav a {
   font-weight: 300;
   font-size: 1.5em;
   line-height: 30px;
-  color: #a5b6bc;
+  color: #fff;
 }
 
 #first-character {
@@ -303,8 +304,8 @@ nav a {
 }
 
 .gallery-body h1 {
-  color: #a5b6bc;
-  font-family: monsterrat, sans-serif;
+  color: #fff;
+  font-family: "dancing script", sans-serif;
   font-weight: 300;
   font-size: 30px;
   padding-bottom: 15px;
@@ -314,6 +315,17 @@ nav a {
   max-width: 15%;
   margin: 0 5px;
   position: relative;
+}
+
+.photo:after {
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(black 70%, transparent);
+  transform: scale(1.1) rotate(180deg);
 }
 
 .thumbnail,
@@ -332,16 +344,7 @@ nav a {
   margin-top: 5px;
 }
 
-.photo:after {
-  content: "";
-  position: absolute;
-  top: 55%;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background: linear-gradient(black 70%, transparent);
-  transform: scale(1.1) rotate(180deg);
-}
+
 
 .lightbox {
   /* by default lightbox objects stay hidden */
@@ -427,7 +430,7 @@ footer {
   top: 0;
   left: 0;
   background: url('../images/logo_mv_white.png');
-  background-size: cover 80%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   width: 85%;
@@ -503,8 +506,7 @@ footer {
   height: 20%;
   width: 40%;
   align-items: center;
-  justify-items: center;
-  text-align: center;
+
 
   background: rgba(2, 1, 2, 0.4);
   box-shadow: 0 8px 32px 0 rgba(2, 1, 2, 0.37);
@@ -531,14 +533,18 @@ footer {
 }
 
 
-/* media queries */
+/* media queries > responsivness*/
 
 @media screen and (max-width:800px) {
+
+  /* navbar and logo responsivness */
+
   header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 130px;
+    padding: 0;
   }
 
   header>nav {
@@ -550,31 +556,44 @@ footer {
   }
 
   .cover_text {
-    width: 300px;
+    width: 250px;
     height: 70px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding-left: 45px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
+    text-align: center;
 
-  }
-
-  .text_footer {
-    font-weight: 150;
-    letter-spacing: 0px;
-    font-size: 1em;
   }
 
   .nav_mobile {
     display: flex;
+    width: 100%;
   }
 
-  .nav_links {
+  .nav_links{
+    /* padding: auto; */
     display: flex;
     padding: 0 10px;
+    font-size: 1em;
+    margin: 0 auto 10px auto;
   }
 
+  .nav_links li {
+    /* text-align: center; */
+    margin: 2px;
+  }
+
+  
+/* footer responsivness */
+
+.text_footer {
+  font-weight: 150;
+  letter-spacing: 0px;
+  font-size: small;
+}
+
   .footer_copyrights p {
-    font-size: 1.0em;
+    font-size: 0.7rem;
   }
 
   .vl {
@@ -655,7 +674,7 @@ footer {
   background: url('../images/wordcloud20_edited.jpg') no-repeat center center;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: contain;
   overflow: hidden;
   background-attachment: fixed;
   position: relative;
@@ -671,10 +690,11 @@ footer {
 
 }
 
-
+/* video page */
 
 .flex-container {
   width: 100%;
+  height: fit-content;
   background: #000;
   display: flex;
   flex-wrap: wrap;
@@ -682,9 +702,9 @@ footer {
 }
 
 .box {
-  height: auto;
+  height: fit-content;
   min-width: 250px;
-  width: 40vw;
+  /* width: 40vw; */
   flex-grow: 2;
 
   font-family: montaga, sans-serif;
@@ -740,11 +760,10 @@ footer {
   background: url('../images/wordcloud_gallery_top2_edited.jpg') no-repeat center center;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: contain;
   overflow: hidden;
   position: relative;
-  padding-top: 360px;
-  padding-bottom: 360px;
+
 
 }
 

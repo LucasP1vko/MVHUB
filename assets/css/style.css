@@ -509,18 +509,23 @@ footer {
   flex-wrap: wrap;
   border-style: solid;
 }
+/* embeeded video size */
+
+.flex-container iframe {
+width:500px;
+height:50vh;
+}
 
 .box {
   height: fit-content;
   min-width: 250px;
-  /* width: 40vw; */
   flex-grow: 2;
 
   font-family: montaga, sans-serif;
   font-weight: 100;
   font-size: 1rem;
   line-height: 30px;
-  color: #a5b6bc;
+  color: #ffffff;
 
   text-align: center;
 }
@@ -552,15 +557,15 @@ footer {
 
 .box_video {
   height: auto;
-  min-width: 460px;
-  width: 40vw;
+  min-width: 250px;
+  /* width: 40vw; */
   flex-grow: 2;
 
   font-family: montaga, sans-serif;
   font-weight: 100;
-  font-size: 1rem;
-  line-height: 30px;
-  color: #a5b6bc;
+  font-size: 1.3rem;
+  line-height: 40px;
+  color: #fff;
 
   text-align: center;
 }
@@ -769,8 +774,31 @@ footer {
   padding: 10px 20px 10px 20px
 }
 
+.submit-button-link {
+  font-size:25px;
+  font-family:Arial;
+  width:400px;
+  height:100px;
+  border-width:3px;
+  color:#505739;
+  border-color:#333029;
+  font-weight:bold;
+  border-top-left-radius:42px;
+  border-top-right-radius:42px;
+  border-bottom-left-radius:42px;
+  border-bottom-right-radius:42px;
+  box-shadow: 0px 1px 0px 0px #1c1b18;
+  background:linear-gradient(#eae0c2, #ccc2a6);
+}
+
+.submit-button-link:hover {
+  background: linear-gradient(#ccc2a6, #eae0c2);
+}
+
+
+
 /* Media queries for v small size */
-@media screen and (max-width:475px) {
+@media screen and (max-width:550px) {
   .name_mobile {
     padding: 0 2px 0 2px;
     font-weight: 300;
@@ -780,8 +808,15 @@ footer {
   .name_mobile ion-icon {
     display:none;
   }
+
+  /* embeeded video size */
+
+.flex-container iframe {
+  width:250px;
+  height:50vh;
+  }
 }
-/* media queries > responsivness*/
+/* media queries > responsivness for medium to small size*/
 
 @media screen and (max-width:800px) {
 

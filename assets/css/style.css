@@ -254,7 +254,6 @@ footer {
   background: rgba(2, 1, 2, 0.4);
   box-shadow: 0 8px 32px 0 rgba(2, 1, 2, 0.37);
   backdrop-filter: blur(15.5px);
-  -webkit-backdrop-filter: blur(15.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.726);
 }
@@ -292,7 +291,6 @@ footer {
   background: rgba(2, 1, 2, 0.4);
   box-shadow: 0 8px 32px 0 rgba(2, 1, 2, 0.37);
   backdrop-filter: blur(15.5px);
-  -webkit-backdrop-filter: blur(15.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.726);
 }
@@ -314,7 +312,6 @@ footer {
   background: rgba(2, 1, 2, 0.4);
   box-shadow: 0 8px 32px 0 rgba(2, 1, 2, 0.37);
   backdrop-filter: blur(15.5px);
-  -webkit-backdrop-filter: blur(15.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.726);
 }
@@ -345,7 +342,6 @@ footer {
   background: rgba(2, 1, 2, 0.4);
   box-shadow: 0 8px 32px 0 rgba(2, 1, 2, 0.37);
   backdrop-filter: blur(15.5px);
-  -webkit-backdrop-filter: blur(15.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.726);
 }
@@ -514,6 +510,8 @@ footer {
 .flex-container iframe {
 width:500px;
 height:50vh;
+border:0;
+margin:0; 
 }
 
 .box {

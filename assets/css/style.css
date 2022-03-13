@@ -784,7 +784,7 @@ margin:0;
 }
 /* media queries > responsivness for medium to small size*/
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1100px) {
 
   /* navbar and logo responsivness */
 
@@ -817,10 +817,11 @@ margin:0;
   .nav_mobile {
     display: flex;
     width: 100%;
+    margin:0 0 20px 0;
   }
 
   .nav_links{
-    /* padding: auto; */
+
     display: flex;
     padding: 0 10px;
     font-size: 1em;
@@ -828,7 +829,7 @@ margin:0;
   }
 
   .nav_links li {
-    /* text-align: center; */
+    
     margin: 2px;
   }
 

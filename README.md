@@ -68,12 +68,13 @@ In this section, you should go over the different parts of your project, and des
 <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_tablet.gif" width=250px height=250px alt=Nav Bar Desktop size animated />
 <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_mobile.gif" width=250px height=250px alt=Nav Bar Desktop size animated />
 </div>
+
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a MV8800 Production Studio photograph with text overlay inspiring to use this page to join community. It is motto for the website. 
+  - This section takes only 70% of the screen revealing further content inviting user to scrool down. Parralax effect on scroll makes nice feeling following sections like floating up makes user to scroll with pleaseure.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/hero_animation.gif)
 
 - __Club Ethos Section__
 

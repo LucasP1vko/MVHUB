@@ -91,7 +91,9 @@ Four subpages are:
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
 ### Elements for individual pages
+
 <div align="center"><h3>Home Page</h3></div>
+
 - __Landing page image__
 
   - The landing includes a MV8800 Production Studio photograph with text overlay inspiring to use this page to join community. It is motto for the website. 

@@ -54,13 +54,13 @@ Despite it is quite old device the community is growing and getting new members 
 
 ## Features 
 
-#Website contain 2 global elements that are common for all pages: 
+# Website contain 2 global elements that are common for all pages: 
 - Navbar
 - Footer
 
 Hero image is changing on each of subpages and size is only 60% on main page when other pages hero image is 25%.
 
-#Four subpages are:
+# Four subpages are:
 -Specifications
 -Video
 -Gallery
@@ -68,7 +68,7 @@ Hero image is changing on each of subpages and size is only 60% on main page whe
 
 ### Existing Features
 
-##Navigation Bar
+## Navigation Bar
 
   - Featured on all pages, the full responsive navigation bar includes links to the Home page, Specifications, Video, Gallery and Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 

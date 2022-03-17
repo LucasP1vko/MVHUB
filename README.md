@@ -43,25 +43,36 @@
   </h3>
 </div>
 <hr>
+
 # About
 
 MV-HUB is a place where users can find anything they need to use Mv-8800 Production Studio.
-Knowledge about hpw to use an instrument is the same or even more valuable than device or instrument itself therfore from perspective of user this kind of content is essential for either new and expirienced users.
+Knowledge about how to use an instrument is the same or even more valuable than device or instrument itself therefore from perspective of user this kind of content is essential for either new and expirienced users.
 Despite it is quite old device the community is growing and getting new members and knowledge essential to start in one place is what they are looking for.
 
 ![Responsive Mockup](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/mockup_3.png)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Website contain 2 global elements that are common for all pages: 
+- Navbar
+- Footer
+
+Hero image is changing on each of subpages and size is only 60% on main page when other pages hero image is 25%.
+
+Four subpages are:
+-Specifications
+-Video
+-Gallery
+-Contact
 
 ### Existing Features
 
-<div align="center">Navigation Bar</div>
-
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+<div align="center"><b>Navigation Bar</b></div>
+##..
+  - Featured on all pages, the full responsive navigation bar includes links to the Home page, Specifications, Video, Gallery and Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-  - Navbar is strongly connentet to page music content. In desktop size navigation links represents mixer volume sliders and color of highlighted links is <code>#51d720</code> and it is tribute to the color of original MV-8000 screen that was changed later on to new rgb one.
+  - Navbar is strongly connected to page music content. In desktop size navigation links represents mixer volume sliders and color of highlighted links is <code>#51d720</code> and it is tribute to the color of original MV-8000 screen that was changed later on to new rgb one.
   - Below you can find navbar in 3 versions for each size of screen: desktop, laptop and mobile. 
 
 <div align="center">
@@ -70,7 +81,7 @@ In this section, you should go over the different parts of your project, and des
 <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_mobile.gif" width=250px height=250px alt=Nav Bar Mobile size animated />
 </div>
 
-<div align="center" bgcolor="black">The landing page image</div>
+<div align="center">The landing page image</div>
 
   - The landing includes a MV8800 Production Studio photograph with text overlay inspiring to use this page to join community. It is motto for the website. 
   - This section takes only 70% of the screen revealing further content inviting user to scrool down. Parralax effect on scroll makes nice feeling following sections like floating up makes user to scroll with pleaseure.

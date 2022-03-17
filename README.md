@@ -64,8 +64,9 @@ In this section, you should go over the different parts of your project, and des
   - Navbar is strongly connentet to page music content. In desktop size navigation links represents mixer volume sliders and color of highlighted links is <code>#51d720</code> and it is tribute to the color of original MV-8000 screen that was changed later on to new rgb one.
 
 <div align="center">
-<img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar.gif" width=300px height=300px alt=Nav Bar Desktop size animated />
-<img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_tablet.gif" width=300px height=300px alt=Nav Bar Desktop size animated />
+<img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar.gif" width=250px height=250px alt=Nav Bar Desktop size animated />
+<img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_tablet.gif" width=250px height=2500px alt=Nav Bar Desktop size animated />
+<img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_mobile.gif" width=250px height=250px alt=Nav Bar Desktop size animated />
 </div>
 - __The landing page image__
 

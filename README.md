@@ -63,8 +63,7 @@ In this section, you should go over the different parts of your project, and des
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 <div align="center">
-![Nav Bar Desktop size animated]
-(https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar.gif)
+![Nav Bar Desktop size animated](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar.gif)
 </div>
 - __The landing page image__
 

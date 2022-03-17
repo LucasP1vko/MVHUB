@@ -66,9 +66,9 @@ Four subpages are:
 - Gallery
 - Contact
 
-### Existing Features
+## Existing Features
 
-## Navigation Bar
+### Navigation Bar
 
   - Featured on all pages, the full responsive navigation bar includes links to the Home page, Specifications, Video, Gallery and Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
@@ -81,7 +81,14 @@ Four subpages are:
 <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_mobile.gif" width=250px height=250px alt=Nav Bar Mobile size animated />
 </div>
 
-<div align="center">The landing page image</div>
+### Footer
+
+  - The footer section includes links to the relevant social media sites for MV-HUB. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
+
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+
+### Landing page image
 
   - The landing includes a MV8800 Production Studio photograph with text overlay inspiring to use this page to join community. It is motto for the website. 
   - This section takes only 70% of the screen revealing further content inviting user to scrool down. Parralax effect on scroll makes nice feeling following sections like floating up makes user to scroll with pleaseure.
@@ -102,12 +109,6 @@ Four subpages are:
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
 - __Gallery__
 

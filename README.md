@@ -1,3 +1,6 @@
+![Nav Bar](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2e5adf89/assets/readme_files/banner.gif)
+
+
 # Love Running
 
 In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
@@ -17,8 +20,8 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar.gif)
-
+![Nav Bar](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar.gif=250x250)
+[[https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png|width=100px]]
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 

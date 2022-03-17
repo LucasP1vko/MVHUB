@@ -57,19 +57,20 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-- __Navigation Bar__
+<div align="center">Navigation Bar</div>
 
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
   - Navbar is strongly connentet to page music content. In desktop size navigation links represents mixer volume sliders and color of highlighted links is <code>#51d720</code> and it is tribute to the color of original MV-8000 screen that was changed later on to new rgb one.
+  - Below you can find navbar in 3 versions for each size of screen: desktop, laptop and mobile. 
 
 <div align="center">
 <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar.gif" width=250px height=250px alt=Nav Bar Desktop size animated />
-<img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_tablet.gif" width=250px height=250px alt=Nav Bar Desktop size animated />
-<img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_mobile.gif" width=250px height=250px alt=Nav Bar Desktop size animated />
+<img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_tablet.gif" width=250px height=250px alt=Nav Bar Tablet size animated />
+<img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_mobile.gif" width=250px height=250px alt=Nav Bar Mobile size animated />
 </div>
 
-- __The landing page image__
+<div align="center">The landing page image</div>
 
   - The landing includes a MV8800 Production Studio photograph with text overlay inspiring to use this page to join community. It is motto for the website. 
   - This section takes only 70% of the screen revealing further content inviting user to scrool down. Parralax effect on scroll makes nice feeling following sections like floating up makes user to scroll with pleaseure.

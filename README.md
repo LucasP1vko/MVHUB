@@ -1,5 +1,47 @@
-![Nav Bar](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2e5adf89/assets/readme_files/banner.gif)
+![Banner with unit image and logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2e5adf89/assets/readme_files/banner.gif)
+<br />
+<h1 align="center">MV-HUB</h1>
 
+
+<div align="center">
+  <strong>Roland MV-8800 Production Studio knowledge centre.</strong>
+</div>
+<div align="center">
+ Educational website for analog music production device.
+</div>
+
+<br />
+
+<div align="center">
+    <img src="https://img.shields.io/badge/Type-Educational-blue"
+      alt="type: educational" />
+          <img src="https://img.shields.io/badge/About-Music-blue"
+      alt="about: music" />
+          <img src="https://img.shields.io/badge/Languages-HTML%20%26%20CSS-success"
+      alt="languages used: HTML and CSS" />
+          <img src="https://img.shields.io/badge/Editor-Gitpod-blueviolet"
+      alt="editor: gitpod" />
+          <img src="https://img.shields.io/badge/Deployment-Github-important"
+      alt="deployment: github" />
+  
+
+</div>
+
+<div align="center">
+  <h3>
+    <a href="https://lucasp1vko.github.io/MVHUB/">
+      🌍Live Website
+    </a>
+    <span> | </span>
+    <a href="https://github.com/LucasP1vko/MVHUB">
+     💾Github Repository
+      </a>
+          <span> | </span>
+    <a href="https://codeinstitute.net/ie/">
+      Code Institute
+    </a>
+  </h3>
+</div>
 
 # Love Running
 

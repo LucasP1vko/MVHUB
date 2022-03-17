@@ -70,7 +70,7 @@ In this section, you should go over the different parts of your project, and des
 <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_mobile.gif" width=250px height=250px alt=Nav Bar Mobile size animated />
 </div>
 
-<div align="center">The landing page image</div>
+<div align="center" bgcolor="black">The landing page image</div>
 
   - The landing includes a MV8800 Production Studio photograph with text overlay inspiring to use this page to join community. It is motto for the website. 
   - This section takes only 70% of the screen revealing further content inviting user to scrool down. Parralax effect on scroll makes nice feeling following sections like floating up makes user to scroll with pleaseure.

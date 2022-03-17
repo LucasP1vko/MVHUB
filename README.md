@@ -52,15 +52,15 @@ Despite it is quite old device the community is growing and getting new members 
 
 ![Responsive Mockup](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/mockup_3.png)
 
-## Features 
+# Features 
 
-# Website contain 2 global elements that are common for all pages: 
+## Website contain 2 global elements that are common for all pages: 
 - Navbar
 - Footer
 
 Hero image is changing on each of subpages and size is only 60% on main page when other pages hero image is 25%.
 
-# Four subpages are:
+## Four subpages are:
 -Specifications
 -Video
 -Gallery

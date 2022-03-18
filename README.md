@@ -72,7 +72,7 @@ place is what they are looking for.
 
 ![Responsive Mockup](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/mockup_3.png)
 
-# Features
+> # Features
 
 Website contain 2 global elements that are common for all pages:
 - Navbar
@@ -86,11 +86,11 @@ Four subpages are:
 - Gallery
 - Contact
 
-## Existing Features
+> ## Existing Features
 
-> **Common elements:** 
+**Common elements:** 
 
-<h3 align="center">Navigation Bar</h3>
+<h4 align="center">Navigation Bar</h4>
 
 - Featured on all pages, the full responsive navigation bar includes links to the Home page, Specifications, Video,
 Gallery and Contact page and is identical in each page to allow for easy navigation.
@@ -110,7 +110,7 @@ was changed later on to new rgb one.
     height=250px alt=Nav Bar Mobile size animated />
 </div>
 
-<h3 align="center">Footer</h3>
+<h4 align="center">Footer</h4>
 
 - The footer section includes links to the relevant social media sites for MV-HUB. The links will open to a new tab to
 allow easy navigation for the user.
@@ -125,7 +125,7 @@ allow easy navigation for the user.
 
 > **Elements for individual pages:**
 
-<h3 align="center">Home Page</h3>
+<h4 align="center">Home Page</h4>
 
 - __Landing page image__
 

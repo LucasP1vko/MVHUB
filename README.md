@@ -88,7 +88,7 @@ Four subpages are:
 
 ## Existing Features
 
-### Common elements
+> **Common elements:** 
 
 <h3 align="center">Navigation Bar</h3>
 
@@ -123,11 +123,9 @@ allow easy navigation for the user.
 ![Footer](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_tablet640.png)
 ![Footer](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_mobile640.png)
 
-### Elements for individual pages
+> **Elements for individual pages:**
 
-<div align="center">
-  <h3>Home Page</h3>
-</div>
+<h3 align="center">Home Page</h3>
 
 - __Landing page image__
 

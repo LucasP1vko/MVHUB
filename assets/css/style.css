@@ -248,6 +248,8 @@ footer {
   text-transform: uppercase
 }
 
+/* footer logo box */
+
 .footer_logo {
   position: absolute;
   display: flex;
@@ -284,6 +286,8 @@ footer {
   padding: 1% 0 3% 0;
 }
 
+/* footer copyrights box */
+
 .footer_copyrights {
   position: absolute;
   display: flex;
@@ -305,6 +309,7 @@ footer {
   border: 1px solid rgba(255, 255, 255, 0.726);
 }
 
+/* footer author box */
 
 .footer_author {
   position: absolute;
@@ -335,7 +340,7 @@ footer {
 }
 
 
-
+/* footer social box */
 
 .footer_social {
   position: absolute;

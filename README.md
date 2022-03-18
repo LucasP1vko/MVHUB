@@ -88,8 +88,8 @@ Four subpages are:
 
 > ## Existing Features
 
-<h3 align="center"><u>Common elements:</u></h3>
-
+<h3 align="center">Common elements:</h3>
+<hr>
 <h4 align="center">Navigation Bar</h4>
 
 - Featured on all pages, the full responsive navigation bar includes links to the Home page, Specifications, Video,
@@ -110,6 +110,8 @@ was changed later on to new rgb one.
     height=250px alt=Nav Bar Mobile size animated />
 </div>
 
+<hr>
+
 <h4 align="center">Footer</h4>
 
 - The footer section includes links to the relevant social media sites for MV-HUB. The links will open to a new tab to
@@ -118,10 +120,13 @@ allow easy navigation for the user.
 - The footer is valuable to the user as it encourages them to keep connected via social media and make contact informations easy to find.
 - Below you can find footer in 3 versions for each size of screen: desktop, laptop and mobile.
 
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_desktop.png" width=750px 
+    alt=Footer Desktop size />
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_tablet640.png" width=375px alt=Footer Tablet size />
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_mobile640.png" width=375px alt=Footer Mobile size />
+</div>
 
-![Footer](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_desktop.png)
-![Footer](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_tablet640.png)
-![Footer](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_mobile640.png)
 
 > **Elements for individual pages:**
 

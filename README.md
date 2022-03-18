@@ -26,8 +26,7 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 
 <div align="center">
   <p>
-    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasp1vko.github.io%2FMVHUB%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"
-      target=”_blank”>
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasp1vko.github.io%2FMVHUB%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
       <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
         alt="Valid CSS!" />
     </a>

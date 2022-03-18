@@ -394,7 +394,7 @@ footer {
 }
 
 #hero-image {
-  background: url('../images/HERO.jpg') no-repeat center center;
+  background: url('../images/HEROtest.jpg') no-repeat center center;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -585,7 +585,7 @@ footer {
 }
 
 #hero-image_gallery_bottom {
-  background: url('../images/wordcloud_gallery_top2_edited.jpg') no-repeat center center;
+  background: url('../images/wordcloud_gallery_top2_editedtest.jpg') no-repeat center center;
   width: 100%;
   height: 100%;
   background-size: contain;

@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montaga&family=Share+Tech+Mono&family=Cormorant+Garamond:wght@500&family=Dancing+Script:wght@600&family=Montserrat:wght@300;500;600&display=swap');
+/* 
+#                    #     # #     #             #     # #     # ######            #####   #####   #####                          #
+#                    ##   ## #     #             #     # #     # #     #          #     # #     # #     #                         #
+#                    # # # # #     #             #     # #     # #     #          #       #       #                               #
+#                    #  #  # #     #    #####    ####### #     # ######           #        #####   #####                          #
+#                    #     #  #   #              #     # #     # #     #          #             #       #                         #
+#                    #     #   # #               #     # #     # #     #          #     # #     # #     #                         #
+#                    #     #    #                #     #  #####  ######            #####   #####   #####                          #*/
 
+/* ############################################### global styles for all pages ################################################# */
 
 * {
   box-sizing: border-box;
@@ -10,6 +19,18 @@
 body {
   background: #000;
 }
+
+/* navbar for mobile */
+
+.nav_mobile {
+  display: none;
+}
+
+.name_mobile {
+  text-decoration: none;
+}
+
+/* Header section containing navbar */
 
 header {
   position: relative;
@@ -22,25 +43,37 @@ header {
   width: 100%
 }
 
-.nav_mobile {
-  display: none;
-}
-
-.name_mobile {
-  text-decoration: none;
-}
-
-
 .sticky {
   position: sticky;
   top: 0;
   z-index: 10;
 }
 
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> logo <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
 .logo {
   margin-right: auto;
   padding: 2% 0;
 }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> navbar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* active link state on current page */
+
+#active>.thumb {
+  top: 7%;
+}
+
+#active>.name {
+  color: rgb(42, 236, 52);
+}
+
+#active>.thumb .iconbox ion-icon {
+  color: rgb(0, 0, 0);
+  filter: drop-shadow(0 0 5px rgb(66, 66, 66));
+}
+
+/* navbar styling */
 
 nav {
   height: 100%;
@@ -49,12 +82,9 @@ nav {
   display: flex;
 }
 
-
 nav a {
   padding: 3em 2em;
 }
-
-
 
 .link {
   width: 30%;
@@ -79,22 +109,6 @@ nav a {
   color: rgb(0, 0, 0);
   filter: drop-shadow(0 0 5px rgb(66, 66, 66));
 }
-
-/* active link on current page */
-
-#active>.thumb {
-  top: 7%;
-}
-
-#active>.name {
-  color: rgb(42, 236, 52);
-}
-
-#active>.thumb .iconbox ion-icon {
-  color: rgb(0, 0, 0);
-  filter: drop-shadow(0 0 5px rgb(66, 66, 66));
-}
-
 
 .track_container {
   width: 100%;
@@ -190,13 +204,12 @@ nav a {
   transition: all 1.5s ease;
   font-size: 1.3em;
   font-family: "share tech mono", sans-serif;
-  /* text-transform: uppercase; */
 }
+
+/* styling name of nav links for mobile navbar */
 
 .name_mobile {
   position: relative;
-  /* top: -20%;
-  left: 5%; */
   color: #a5b6bc;
   transition: all 0.5s ease;
   font-size: 1.5em;
@@ -212,10 +225,7 @@ nav a {
   color: rgb(42, 236, 52);
 }
 
-
-
-
-/* footer */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 footer {
   height: 30vh;
@@ -362,8 +372,10 @@ footer {
   color: #f1f1f1;
 }
 
-/* main page index */
+/* ########################################### local styles for individual pages #############################################*/
 
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> main page index <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 /* section hero image and cover text*/
 
@@ -386,10 +398,7 @@ footer {
   position: relative;
   padding-top: 360px;
   padding-bottom: 360px;
-
 }
-
-
 
 .cover_text {
   font-size: 1.5rem;
@@ -448,8 +457,7 @@ footer {
 
 }
 
-/* specs page */
-
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> specs page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 /* section hero image*/
 
@@ -482,7 +490,7 @@ footer {
 
 }
 
-/* video page */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> video page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 #hero-image_video {
   background: url('../images/wordcloud_video3test.jpg') no-repeat center center;
@@ -556,10 +564,7 @@ footer {
 }
 
 
-
-
-
-/* gallery page */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> gallery page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 #hero-image_gallery {
   background: url('../images/wordcloud_gallery_topxtest.jpg') no-repeat center center;
@@ -683,7 +688,7 @@ footer {
 }
 
 
-/* Contact page */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Contact page <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 #hero-image_contact {
   background: url('../images/wordcloud_contact4new_resizedtest.jpg') no-repeat center center;
@@ -761,10 +766,10 @@ footer {
   padding: 10px 20px 10px 20px
 }
 
+/* ##################################################### Media querries ######################################################### */
 
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media queries for v small size MOBILE PHONES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
-
-/* Media queries for v small size */
 @media screen and (max-width:550px) {
   .name_mobile {
     padding: 0 2px 0 2px;
@@ -785,7 +790,7 @@ footer {
   }
 }
 
-/* media queries > responsivness for medium to small size*/
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> media queries > responsivness for small to medium size TABLETS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 @media screen and (max-width:1200px) {
 
@@ -899,8 +904,6 @@ footer {
     flex-direction: column;
   }
 
-
-
   .lightbox img {
     max-width: 100%;
   }
@@ -912,8 +915,6 @@ footer {
 
   }
 
-
 }
-
 
 /* end of media queries */

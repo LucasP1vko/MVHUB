@@ -485,7 +485,7 @@ footer {
 /* video page */
 
 #hero-image_video {
-  background: url('../images/wordcloud_video3.jpg') no-repeat center center;
+  background: url('../images/wordcloud_video3test.jpg') no-repeat center center;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -562,7 +562,7 @@ footer {
 /* gallery page */
 
 #hero-image_gallery {
-  background: url('../images/wordcloud_gallery_topx.jpg') no-repeat center center;
+  background: url('../images/wordcloud_gallery_topxtest.jpg') no-repeat center center;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -686,7 +686,7 @@ footer {
 /* Contact page */
 
 #hero-image_contact {
-  background: url('../images/wordcloud_contact4new_resized.jpg') no-repeat center center;
+  background: url('../images/wordcloud_contact4new_resizedtest.jpg') no-repeat center center;
   width: 100%;
   height: 100%;
   background-size: cover;

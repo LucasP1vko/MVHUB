@@ -123,10 +123,11 @@ allow easy navigation for the user.
 <div align="center">
   <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_desktop.png" width=750px 
     alt=Footer Desktop size />
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_tablet640.png" width=375px alt=Footer Tablet size />
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_mobile640.png" width=375px alt=Footer Mobile size />
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_tablet640.png" width=50% alt=Footer Tablet size />
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_mobile640.png" width=50% alt=Footer Mobile size />
 </div>
 
+<hr>
 
 > **Elements for individual pages:**
 

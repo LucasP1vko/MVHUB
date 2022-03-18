@@ -50,6 +50,18 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 </div>
 <hr>
 
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Future Features](#future)
+- [Code Structure](#code)
+- [UX](#ux)
+- [Testing](#testing)
+- [Bugs](#bugs)
+- [Content and resources](#content)
+- [Technology Used](#technology)
+- [Credits](#credits)
+
 # About
 
 MV-HUB is a place where users can find anything they need to use Mv-8800 Production Studio.
@@ -102,9 +114,14 @@ was changed later on to new rgb one.
 
 - The footer section includes links to the relevant social media sites for MV-HUB. The links will open to a new tab to
 allow easy navigation for the user.
-- The footer is valuable to the user as it encourages them to keep connected via social media
+- Footer contain 4 blocks: logo, copyrights, author informations and social links.
+- The footer is valuable to the user as it encourages them to keep connected via social media and make contact informations easy to find.
+- Below you can find footer in 3 versions for each size of screen: desktop, laptop and mobile.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+
+![Footer](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_desktop.png)
+![Footer](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_tablet640.png)
+![Footer](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_mobile640.png)
 
 ### Elements for individual pages
 

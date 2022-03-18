@@ -90,7 +90,7 @@ Four subpages are:
 
 ### Common elements
 
-- __Navigation Bar__
+<h3 align="center">Navigation Bar</h3>
 
 - Featured on all pages, the full responsive navigation bar includes links to the Home page, Specifications, Video,
 Gallery and Contact page and is identical in each page to allow for easy navigation.
@@ -110,7 +110,7 @@ was changed later on to new rgb one.
     height=250px alt=Nav Bar Mobile size animated />
 </div>
 
-- __Footer__
+<h3 align="center">Footer</h3>
 
 - The footer section includes links to the relevant social media sites for MV-HUB. The links will open to a new tab to
 allow easy navigation for the user.

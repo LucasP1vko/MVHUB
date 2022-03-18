@@ -50,7 +50,7 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 </div>
 <hr>
 
-## Table of Contents
+> # Table of Contents
 - [About](#about)
 - [Features](#features)
 - [Future Features](#future)
@@ -62,7 +62,7 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 - [Technology Used](#technology)
 - [Credits](#credits)
 
-# About
+> # About
 
 MV-HUB is a place where users can find anything they need to use Mv-8800 Production Studio.
 Knowledge about how to use an instrument is the same or even more valuable than device or instrument itself therefore
@@ -88,7 +88,7 @@ Four subpages are:
 
 > ## Existing Features
 
-**Common elements:** 
+<h3 align="center">**Common elements:**</h3>
 
 <h4 align="center">Navigation Bar</h4>
 

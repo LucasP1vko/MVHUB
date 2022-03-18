@@ -88,7 +88,7 @@ Four subpages are:
 
 > ## Existing Features
 
-<h3 align="center">**Common elements:**</h3>
+<h3 align="center"><u>Common elements:</u></h3>
 
 <h4 align="center">Navigation Bar</h4>
 

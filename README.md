@@ -180,7 +180,11 @@ scroll makes nice feeling following sections like floating up makes user to scro
 asked to submit their full name and email address to get informations in return.
 - Below you can find contact form in 3 versions for each size of screen: desktop, laptop and mobile.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/contact_anim.gif" width=750px 
+    alt=Contact responsive animated />
+</div>
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 

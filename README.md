@@ -56,7 +56,7 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 - [Responsivness](#responsivness)
 - [Features](#features)
 - [Future Features](#left)
-- [Code and Assets Structure](#structure)
+- [Code and assets structure.](#code)
 - [UX](#ux)
 - [Testing](#testing)
 - [Bugs](#bugs)
@@ -192,6 +192,8 @@ asked to submit their full name and email address to get informations in return.
 
 <hr>
 
+<a name="left"></a>
+
 > # Features Left to Implement
 
 <hr>
@@ -213,6 +215,8 @@ asked to submit their full name and email address to get informations in return.
 - With increasing amount of content page will need system for filtering and easy finding desired materials. It will be easier achieved by adding searching engine than navigating in interface. So it is definatelly feature that will appear with website development.
 
 <hr>
+
+<a name="code"></a>
 
 > # Code and assets structure.
 

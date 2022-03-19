@@ -51,6 +51,7 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 <hr>
 
 > # Table of Contents
+
 - [About](#about)
 - [Responsivness](#responsivness)
 - [Features](#features)
@@ -186,15 +187,43 @@ asked to submit their full name and email address to get informations in return.
     alt=Contact responsive animated />
 </div>
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+<hr>
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+> # Features Left to Implement
 
-### Features Left to Implement
+<hr>
 
-- Another feature idea
+<h3 align="centre">DOWNLOADS</h3>
 
-## Testing
+- At the moment gallery replaced planned download section and it will be very important part of the MV-HUB. It will be implemented in the future when specific resources will be available.
+
+<hr>
+
+<h3 align="centre">FORUM</h3>
+
+- Forum is another planned feature to the website it is the best solution to get community together and members to communicate and share knowledge with each other. 
+
+<hr>
+
+<h3 align="centre">SEARCH</h3>
+
+- With increasing amount of content page will need system for filtering and easy finding desired materials. It will be easier achieved by adding searching engine than navigating in interface. So it is definatelly feature that will appear with website development.
+
+> # UX
+
+- Creating MV-HUB started with basic sketch of idea based on resources that in my opinion was essential for users: video tutorials, specifications, downloads of configuration files and gallery. 
+- Also channel for communication was essential part for this project to exist as it focused on quite small community that need to building supporting environment within.
+- Below you can find Sketches from early design of User Interface and Wireframe.
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/design_sketch_002_edited.jpg" width=375px 
+    alt= User Interface design sketch />
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/design_sketch_001_edited.jpg" width=375px 
+    alt= Wireframe design sketch />
+</div>
+
+
+> # Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that
 the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that

@@ -148,7 +148,10 @@ community. It is motto for the website.
 - This section takes only 70% of the screen revealing further content inviting user to scrool down. Parralax effect on
 scroll makes nice feeling following sections like floating up makes user to scroll with pleasure.
 
-![Landing Page](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/hero_animation.gif)
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/hero_animation.gif" 
+    alt=Landing Page />
+</div>
 
 <hr>
 

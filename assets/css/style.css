@@ -773,28 +773,6 @@ footer {
 
 /* ##################################################### Media querries ######################################################### */
 
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media queries for v small size MOBILE PHONES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-@media screen and (max-width:550px) {
-  .name_mobile {
-    padding: 0 2px 0 2px;
-    font-weight: 300;
-    font-size: 1.4rem;
-    letter-spacing: -2px;
-  }
-
-  .name_mobile ion-icon {
-    display: none;
-  }
-
-  /* embeeded video size */
-
-  .flex-container iframe {
-    width: 250px;
-    height: 50vh;
-  }
-}
-
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> media queries > responsivness for small to medium size TABLETS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 @media screen and (max-width:1200px) {
@@ -916,10 +894,39 @@ footer {
   /* contact form page querries */
 
   .contact-form {
+    width: 50%;
+
+  }
+
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media queries for v small size MOBILE PHONES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+@media screen and (max-width:550px) {
+  .name_mobile {
+    padding: 0 2px 0 2px;
+    font-weight: 300;
+    font-size: 1.4rem;
+    letter-spacing: -2px;
+  }
+
+  .name_mobile ion-icon {
+    display: none;
+  }
+
+  /* embeeded video size */
+
+  .flex-container iframe {
+    width: 250px;
+    height: 50vh;
+  }
+
+  .contact-form {
     width: 90%;
 
   }
 
 }
+
+
 
 /* end of media queries */

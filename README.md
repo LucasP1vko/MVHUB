@@ -52,6 +52,7 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 
 > # Table of Contents
 - [About](#about)
+- [Responsivness](#responsivness)
 - [Features](#features)
 - [Future Features](#future)
 - [Code Structure](#code)
@@ -69,6 +70,10 @@ Knowledge about how to use an instrument is the same or even more valuable than 
 from perspective of user this kind of content is essential for either new and expirienced users.
 Despite it is quite old device the community is growing and getting new members and knowledge essential to start in one
 place is what they are looking for.
+<hr>
+
+> # Responsivness
+## Fully responsive design allows users to access MV-HUB from any device: desktop, tablet or mobile phone.
 
 ![Responsive Mockup](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/mockup_3.png)
 
@@ -153,6 +158,8 @@ scroll makes nice feeling following sections like floating up makes user to scro
 - The gallery will provide the user with overview images to see what the machine look like and closer look at different sections of interface.
 - This section is valuable to the user as they will be able to easily identify different sections of the device and also get familiar with general visual presentation of the device.
 - Images can be enlarged to see smaller details of interface.
+- Below you can find gallery in 2 versions for each size of screen: desktop, laptop and mobile.
+
 
 <div align="center">
   <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/gallery_desktop.png" width=750px 
@@ -166,9 +173,12 @@ scroll makes nice feeling following sections like floating up makes user to scro
 
 - __Contact form__
 
-- This page will allow the user to get signed up to Love Running to start their running journey with the community. The
-user will be able specify if they would like to take part in road, trail or both types of running. The user will be
-asked to submit their full name and email address.
+- This page will allow the user to get in touch with MV-HUB. 
+- MV-HUB mission is to help users with knowledge and also with any individal problems, questions, opinions or ideas from the community. 
+- The user will be able to specify what typo of contact they request so it will be easier to filter it and get more specified answers. 
+- The user will be
+asked to submit their full name and email address to get informations in return.
+- Below you can find contact form in 3 versions for each size of screen: desktop, laptop and mobile.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 

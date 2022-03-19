@@ -55,8 +55,8 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 - [About](#about)
 - [Responsivness](#responsivness)
 - [Features](#features)
-- [Future Features](#other)
-- [Code and Assets Structure](#code)
+- [Future Features](#left)
+- [Code and Assets Structure](#structure)
 - [UX](#ux)
 - [Testing](#testing)
 - [Bugs](#bugs)
@@ -192,7 +192,7 @@ asked to submit their full name and email address to get informations in return.
 
 <hr>
 
-> # Other Features Left to Implement
+> # Features Left to Implement
 
 <hr>
 

@@ -154,9 +154,14 @@ scroll makes nice feeling following sections like floating up makes user to scro
 - This section is valuable to the user as they will be able to easily identify different sections of the device and also get familiar with general visual presentation of the device.
 - Images can be enlarged to see smaller details of interface.
 
-![Gallery desktop](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-![Gallery mobile animated](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/gallery_mobile.gif)
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/gallery_desktop.png" width=750px 
+    alt=Gallery desktop size />
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/gallery_mobile.gif" height=500px alt=Gallery tablet and mobile size animated />
+</div>
+
 <hr>
+
 <h4 align="center">Contact Page</h4>
 
 - __Contact form__

@@ -56,7 +56,7 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 - [Responsivness](#responsivness)
 - [Features](#features)
 - [Future Features](#future)
-- [Code Structure](#code)
+- [Code and Assets Structure](#code)
 - [UX](#ux)
 - [Testing](#testing)
 - [Bugs](#bugs)
@@ -209,7 +209,54 @@ asked to submit their full name and email address to get informations in return.
 
 - With increasing amount of content page will need system for filtering and easy finding desired materials. It will be easier achieved by adding searching engine than navigating in interface. So it is definatelly feature that will appear with website development.
 
-> # UX
+<hr>
+
+> # Code and assets structure.
+
+<hr>
+
+- __HTML:__
+
+- code was structured with every element apearing in code in the same order as on the page:
+- first ther is some kind of template that is common to all pages with sticky navbar on the top and footer on the bottom there is also mobile navbar that is not visible unless screen width is decreased and media querries changing its display status.
+- Comments are dividing main sections and were extended to screen width to make easier navigation within code.
+- Below you can find image of collapsed main section showing rough structure of html code: 
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/structure_%20html_index.png" width=750px 
+    alt= HTML code structure presentation />
+</div>
+
+<hr>
+
+- __CSS:__
+
+- CSS is structured with the same system as HTML with common elements being styled on the top part but one more common element Media Querries can be found on very bottom below sub pages styling.
+- Comments for specific sections were extended to window width to provide easier navigation.
+- Also style areas like Common Elements, Subpages Elements and Media Querries are more 'bold' to make them easier to identify.
+- Below you can find animated overview of navigation in CSS code:
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/structure_css_navigation_presentation.gif" width=750px 
+    alt= CSS code structure presentation />
+</div>
+
+<hr>
+
+- __ASSETS STRUCTURE__
+- Files are segregated by area they are used in: general images, gallery, favicon and readme.
+- Below you can find snapshot of file structure:
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/structure_files.png" width=750px 
+    alt= ASSETS structure presentation />
+</div>
+
+<hr>
+
+> # UX.
+
+<hr>
 
 - Creating MV-HUB started with basic sketch of idea based on resources that in my opinion was essential for users: video tutorials, specifications, downloads of configuration files and gallery. 
 - Also channel for communication was essential part for this project to exist as it focused on quite small community that need to building supporting environment within.
@@ -222,6 +269,7 @@ asked to submit their full name and email address to get informations in return.
     alt= Wireframe design sketch />
 </div>
 
+<hr>
 
 > # Testing
 

@@ -123,13 +123,15 @@ allow easy navigation for the user.
 <div align="center">
   <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_desktop.png" width=750px 
     alt=Footer Desktop size />
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_tablet640.png" width=50% alt=Footer Tablet size />
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_mobile640.png" width=50% alt=Footer Mobile size />
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_tablet640.png" width=375px alt=Footer Tablet size />
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_mobile640.png" width=375px alt=Footer Mobile size />
 </div>
 
 <hr>
 
 > **Elements for individual pages:**
+
+<hr>
 
 <h4 align="center">Home Page</h4>
 
@@ -138,37 +140,26 @@ allow easy navigation for the user.
 - The landing includes a MV8800 Production Studio photograph with text overlay inspiring to use this page to join
 community. It is motto for the website.
 - This section takes only 70% of the screen revealing further content inviting user to scrool down. Parralax effect on
-scroll makes nice feeling following sections like floating up makes user to scroll with pleaseure.
+scroll makes nice feeling following sections like floating up makes user to scroll with pleasure.
 
 ![Landing Page](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/hero_animation.gif)
 
-- __Club Ethos Section__
+<hr>
 
-- The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the
-benefits of running overall.
-- This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider
-running as their form of exercise.
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-- This section will allow the user to see exactly when the meetups will happen, where they will be located and how long
-the run will be in kilometers.
-- This section will be updated as these times change to keep the user up to date.
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
+<h4 align="center">Photo Page</h4>
 
 - __Gallery__
 
-- The gallery will provide the user with supporting images to see what the meet ups look like.
-- This section is valuable to the user as they will be able to easily identify the types of events the organisation puts
-together.
+- The gallery will provide the user with overview images to see what the machine look like and closer look at different sections of interface.
+- This section is valuable to the user as they will be able to easily identify different sections of the device and also get familiar with general visual presentation of the device.
+- Images can be enlarged to see smaller details of interface.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery desktop](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery mobile animated](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/gallery_mobile.gif)
+<hr>
+<h4 align="center">Contact Page</h4>
 
-- __The Sign Up Page__
+- __Contact form__
 
 - This page will allow the user to get signed up to Love Running to start their running journey with the community. The
 user will be able specify if they would like to take part in road, trail or both types of running. The user will be

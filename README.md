@@ -73,6 +73,7 @@ Knowledge about how to use an instrument is the same or even more valuable than 
 from perspective of user this kind of content is essential for either new and expirienced users.
 Despite it is quite old device the community is growing and getting new members and knowledge essential to start in one
 place is what they are looking for.
+
 - [Back to the top ☝](#menu)
 
 <hr>
@@ -81,6 +82,10 @@ place is what they are looking for.
 ## Fully responsive design allows users to access MV-HUB from any device: desktop, tablet or mobile phone.
 
 ![Responsive Mockup](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/mockup_3.png)
+
+- [Back to the top ☝](#menu)
+
+<hr>
 
 > # Features
 
@@ -95,6 +100,10 @@ Four subpages are:
 - Video
 - Gallery
 - Contact
+
+- [Back to the top ☝](#menu)
+
+<hr>
 
 > ## Existing Features
 
@@ -198,6 +207,10 @@ asked to submit their full name and email address to get informations in return.
 
 <a name="left"></a>
 
+- [Back to the top ☝](#menu)
+
+<hr>
+
 > # Features Left to Implement
 
 <hr>
@@ -221,6 +234,10 @@ asked to submit their full name and email address to get informations in return.
 <hr>
 
 <a name="code"></a>
+
+- [Back to the top ☝](#menu)
+
+<hr>
 
 > # Code and assets structure
 
@@ -263,6 +280,8 @@ asked to submit their full name and email address to get informations in return.
     alt= ASSETS structure presentation />
 </div>
 
+- [Back to the top ☝](#menu)
+
 <hr>
 
 > # UX.
@@ -284,6 +303,8 @@ asked to submit their full name and email address to get informations in return.
   <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/design_sketch_001_edited.jpg" width=375px 
     alt= Wireframe design sketch />
 </div>
+
+- [Back to the top ☝](#menu)
 
 <hr>
 

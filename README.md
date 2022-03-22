@@ -290,7 +290,8 @@ asked to submit their full name and email address to get informations in return.
 
 - Creating MV-HUB started with basic sketch of idea based on resources that in my opinion was essential for users: video tutorials, specifications, downloads of configuration files and gallery. 
 - Also channel for communication was essential part for this project to exist as it focused on quite small community that need to building supporting environment within.
-- Color pallette was generated in <a href="https://coolors.co/" color="red">COOLORS</a> and was based on colors used on real device interface to make it strongly connected to it. Below you can find animation showing process of creating color pallette:
+- Pictures used in this project were taken used Nikon N90 by myself.
+- Color pallette was generated in <a href="https://coolors.co/">COOLORS</a> and was based on colors used on real device interface to make it strongly connected to it. Below you can find animation showing process of creating color pallette:
 <div align="center">
   <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/COLORS640x250.gif" alt= Color pallette creating in COOLORS />
 </div>

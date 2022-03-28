@@ -55,6 +55,7 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 <a name="menu"></a>
 
 - [About](#about)
+- [Deployment](#deployment)
 - [Responsivness](#responsivness)
 - [Features](#features)
 - [Future Features](#left)
@@ -78,7 +79,24 @@ place is what they are looking for.
 
 <hr>
 
-> # Responsivness
+# Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to
+indicate the successful deployment.
+
+The live link can be found here - <a href="https://lucasp1vko.github.io/MVHUB/">
+      🌍Live Website
+    </a>
+
+- [Back to the top ☝](#menu)
+
+<hr>
+
+
+> # Responsiveness
 ## Fully responsive design allows users to access MV-HUB from any device: desktop, tablet or mobile phone.
 
 ![Responsive Mockup](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/mockup_3.png)
@@ -387,7 +405,7 @@ validator
     alt= GTMetrix test results combined />
 </div>
 
-<h3 align="center">RESPONSIVNESS</h3>
+<h3 align="center">RESPONSIVENESS</h3>
 
 - Tested in Chrome Dev Tools for sizes 320px - 2560px (small mobile to large laptops) with satysfing results
 - Example:
@@ -401,23 +419,16 @@ validator
 
 <hr>
 
-### Unfixed Bugs
+# BUGS
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the
-frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty
-understanding implementation is not a valid reason to leave bugs unfixed.
+<h3 align="center">Fixed Bugs:</h3>
 
-## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+<h3 align="center">Unfixed Bugs:</h3>
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to
-indicate the successful deployment.
+- __Images size in Gallery page__
+- The only unfixed bug that I am aware of is image size for gallery page but I left them uncompressed to provide high quality images for gallery so users can enjoy small details and get familiar with different sections of MV8800 interface.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
 
 ## Credits

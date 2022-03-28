@@ -233,6 +233,13 @@ asked to submit their full name and email address to get informations in return.
 
 <hr>
 
+
+<h3 align="centre">RESPONSIVNESS OPTIMIZATION FOR 4K SCREENS</h3>
+
+- It was not essential at the begining because site is rather addressed for smaller devices popular in music studios but eventually will be upgraded to 4K when more content will be added
+
+<hr>
+
 <a name="code"></a>
 
 - [Back to the top ☝](#menu)
@@ -311,20 +318,6 @@ asked to submit their full name and email address to get informations in return.
 
 > # Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that
-the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that
-they all work as intended, with the project providing an easy and straightforward way for the users to achieve their
-goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you
-haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
-### Validator Testing
 
 <h3 align="center">HTML</h3>
 
@@ -392,6 +385,16 @@ validator
 <div align="center">
   <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/gtmetrix_test_all.png" 
     alt= GTMetrix test results combined />
+</div>
+
+<h3 align="center">RESPONSIVNESS</h3>
+
+- Tested in Chrome Dev Tools for sizes 320px - 2560px (small mobile to large laptops) with satysfing results
+- Example:
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/testing/responsivness_test.gif" 
+    alt= Responsivness example />
 </div>
 
 - [Back to the top ☝](#menu)

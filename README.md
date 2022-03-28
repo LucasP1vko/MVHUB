@@ -440,11 +440,16 @@ validator
 <hr>
 
 - __Graphics size__
+
+<br>
+
 - PROBLEM: GTMetrix reports results show images size is slowing down the page loading time.
 <div align="center">
   <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/bugs/test5contactbeforefix.png" 
     alt= Bug image size before />
 </div>
+<br>
+
 - Solution: Used https://tinypng.com/ to compress images and reduce its size fixing the issue.
 
 <div align="center">
@@ -459,6 +464,9 @@ validator
 <h3 align="center">Unfixed Bugs:</h3>
 
 - __Images size in Gallery page__
+
+<br>
+
 - The only unfixed bug that I am aware of is image size for gallery page but I left them uncompressed to provide high quality images for gallery so users can enjoy small details and get familiar with different sections of MV8800 interface.
 
 

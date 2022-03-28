@@ -459,7 +459,25 @@ validator
 
 <hr>
 
+- __Section without headers warnings__
 
+<br>
+
+- PROBLEM: Hero image containing only graphic content was added as section and W3C Validator displayed error about no headers beeing added in this section.
+
+<br>
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/d490f4155dfc847172d20342f4883afece943d36/assets/readme_files/bugs/sections_replaced_with_divs.png" 
+    alt= Bug section have no headers />
+</div>
+<hr>
+
+-SOLUTION: Replacing section with div solved the problem.
+
+<br>
+<hr>
+<br>
 
 <h3 align="center">Unfixed Bugs:</h3>
 

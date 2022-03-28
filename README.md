@@ -58,8 +58,12 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 - [Deployment](#deployment)
 - [Responsivness](#responsivness)
 - [Features](#features)
-- [Future Features](#left)
+  * [Existing Features](#featuresexisting)
+  * [Future Features](#left)
 - [Code and assets structure.](#code)
+  * [HTML](#codehtml)
+  * [CSS](#codecss)
+  * [ASSETS](#codeassets)
 - [UX](#ux)
 - [Testing](#testing)
 - [Bugs](#bugs)
@@ -123,6 +127,7 @@ Four subpages are:
 
 <hr>
 
+<a name="featuresexisting"></a>
 > ## Existing Features
 
 <h3 align="center">Common elements:</h3>
@@ -229,7 +234,7 @@ asked to submit their full name and email address to get informations in return.
 
 <hr>
 
-> # Features Left to Implement
+> ## Features Left to Implement
 
 <hr>
 
@@ -268,6 +273,8 @@ asked to submit their full name and email address to get informations in return.
 
 <hr>
 
+<a name="codehtml"></a>
+
 - __HTML:__
 
 - code was structured with every element apearing in code in the same order as on the page:
@@ -282,6 +289,8 @@ asked to submit their full name and email address to get informations in return.
 
 <hr>
 
+<a name="codecss"></a>
+
 - __CSS:__
 
 - CSS is structured with the same system as HTML with common elements being styled on the top part but one more common element Media Querries can be found on very bottom below sub pages styling.
@@ -295,6 +304,8 @@ asked to submit their full name and email address to get informations in return.
 </div>
 
 <hr>
+
+<a name="codeassets"></a>
 
 - __ASSETS STRUCTURE__
 - Files are segregated by area they are used in: general images, gallery, favicon and readme.
@@ -363,6 +374,8 @@ validator
     </a>
   </p>
 </div>
+
+<hr>
 
 <h3 align="center">PERFORMANCE</h3>
 

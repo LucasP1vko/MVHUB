@@ -56,7 +56,7 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 
 - [About](#about)
 - [Deployment](#deployment)
-- [Responsivness](#responsivness)
+- [Responsiveness](#responsiveness)
 - [Features](#features)
   * [Existing Features](#featuresexisting)
   * [Future Features](#left)

@@ -9,7 +9,7 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
   <strong>Roland MV-8800 Production Studio knowledge centre.</strong>
 </div>
 <div align="center">
-  Educational website for analog music production device.
+  Educational website about analog music production device.
 </div>
 
 <br />
@@ -192,7 +192,7 @@ scroll makes nice feeling following sections like floating up makes user to scro
 
 - This page will allow the user to get in touch with MV-HUB. 
 - MV-HUB mission is to help users with knowledge and also with any individal problems, questions, opinions or ideas from the community. 
-- The user will be able to specify what typo of contact they request so it will be easier to filter it and get more specified answers. 
+- The user will be able to specify what type of contact they request so it will be easier to filter it and get more specified answers. 
 - The user will be
 asked to submit their full name and email address to get informations in return.
 - Below you can find contact form in 3 versions for each size of screen: desktop, laptop and mobile.
@@ -289,7 +289,7 @@ asked to submit their full name and email address to get informations in return.
 <hr>
 
 - Creating MV-HUB started with basic sketch of idea based on resources that in my opinion was essential for users: video tutorials, specifications, downloads of configuration files and gallery. 
-- Also channel for communication was essential part for this project to exist as it focused on quite small community that need to building supporting environment within.
+- Also channel for communication was essential part for this project to exist as it is focused on quite small community that need to building supporting environment within.
 - Pictures used in this project were taken used Nikon N90 by myself.
 - Color pallette was generated in <a href="https://coolors.co/">COOLORS</a> and was based on colors used on real device interface to make it strongly connected to it. Below you can find animation showing process of creating color pallette:
 <div align="center">

@@ -63,9 +63,9 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 - [UX](#ux)
 - [Testing](#testing)
 - [Bugs](#bugs)
-- [Content and resources](#content)
-- [Technology Used](#technology)
 - [Credits](#credits)
+  * [Content and resources](#content)
+  * [Technology Used](#technology)
 
 > # About
 
@@ -471,13 +471,12 @@ validator
   <img src="https://github.com/LucasP1vko/MVHUB/blob/d490f4155dfc847172d20342f4883afece943d36/assets/readme_files/bugs/sections_replaced_with_divs.png" 
     alt= Bug section have no headers />
 </div>
-<hr>
+<br>
 
 -SOLUTION: Replacing section with div solved the problem.
 
 <br>
 <hr>
-<br>
 
 <h3 align="center">Unfixed Bugs:</h3>
 
@@ -486,6 +485,10 @@ validator
 <br>
 
 - The only unfixed bug that I am aware of is image size for gallery page but I left them uncompressed to provide high quality images for gallery so users can enjoy small details and get familiar with different sections of MV8800 interface.
+
+- [Back to the top ☝](#menu)
+
+<hr>
 
 
 

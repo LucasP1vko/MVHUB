@@ -326,9 +326,10 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Validator Testing
 
-- W3C
-- No errors were returned when passing through the official W3C
-validator
+<h3 align="center">HTML</h3>
+
+- __W3C__
+- No errors were returned when passing through the official [W3C HTML VALIDATOR](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasp1vko.github.io%2FMVHUB%2F)
 
 <div align="center">
   <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/testing/w3_html_validator.png" 
@@ -337,7 +338,9 @@ validator
 
 <hr>
 
-- __CSS__
+<h3 align="center">CSS</h3>
+
+- __JIGSAW__
 - No errors were found when passing through the official (Jigsaw)
 validator
 
@@ -350,7 +353,50 @@ validator
   </p>
 </div>
 
+<h3 align="center">PERFORMANCE</h3>
 
+- __Lighthouse__
+- All pages grade near 100 points and no errors found in tests in Lighthouse
+- Galery page tested 78 points because of graphics size but I decided to leave them to provide best image quality in gallery
+- Results:
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/lighthouse_test_index.png" 
+    alt= Lighthouse test results for page index />
+</div>
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/lighthouse_test_info.png" 
+    alt= Lighthouse test results for page specs />
+</div>
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/lighthouse_test_video.png" 
+    alt= Lighthouse test results for page video />
+</div>
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/lighthouse_test_gallery.png" 
+    alt= Lighthouse test results for page gallery />
+</div>
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/lighthouse_test_contact.png" 
+    alt= Lighthouse test results for page contact />
+</div>
+
+- __GTMetrics__
+- GTMetrix tests graded A for all pages
+- Results:
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/gtmetrix_test_all.png" 
+    alt= GTMetrix test results combined />
+</div>
+
+- [Back to the top ☝](#menu)
+
+<hr>
 
 ### Unfixed Bugs
 

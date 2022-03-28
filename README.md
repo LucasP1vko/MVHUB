@@ -326,12 +326,31 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Validator Testing
 
-- HTML
-- No errors were returned when passing through the official [W3C
-validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-- No errors were found when passing through the official [(Jigsaw)
-validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- W3C
+- No errors were returned when passing through the official W3C
+validator
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/testing/w3_html_validator.png" 
+    alt= w3 html validator />
+</div>
+
+<hr>
+
+- __CSS__
+- No errors were found when passing through the official (Jigsaw)
+validator
+
+<div align="center">
+  <p>
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasp1vko.github.io%2FMVHUB%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+      <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
+        alt="Valid CSS!" />
+    </a>
+  </p>
+</div>
+
+
 
 ### Unfixed Bugs
 

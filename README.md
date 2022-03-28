@@ -50,9 +50,8 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 </div>
 <hr>
 
-> # Table of Contents
-
 <a name="menu"></a>
+> # Table of Contents
 
 - [About](#about)
 - [Deployment](#deployment)

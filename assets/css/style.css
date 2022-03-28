@@ -537,7 +537,7 @@ footer {
   font-weight: 100;
   font-size: 1rem;
   line-height: 30px;
-  color: #ffffff;
+  color: rgb(21, 255, 0);
 
   text-align: center;
 }
@@ -549,15 +549,15 @@ footer {
 }
 
 .box_top {
-  height: 25px;
+  height: 50px;
   min-width: 250px;
   flex-grow: 2;
 
   font-family: montaga, sans-serif;
   font-weight: 100;
-  font-size: 1.1rem;
-  line-height: 30px;
-  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 50px;
+  color: rgb(0, 0, 0);
 
   text-align: center;
 }

@@ -66,7 +66,13 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
   * [ASSETS](#codeassets)
 - [UX](#ux)
 - [Testing](#testing)
+  * [HTML](#testinghtml)
+  * [CSS](#testingcss)
+  * [Performance](#testingperformance)  
+  * [Responsiveness](#testingresponsiveness)
 - [Bugs](#bugs)
+  * [Fixed Bugs](#bugsfixed)
+  * [Unfixed Bugs](#bugsunfixed)
 - [Credits](#credits)
   * [Content and resources](#content)
   * [Technology Used](#technology)
@@ -347,6 +353,7 @@ asked to submit their full name and email address to get informations in return.
 
 > # Testing
 
+<a name="testinghtml"></a>
 
 <h3 align="center">HTML</h3>
 
@@ -359,6 +366,8 @@ asked to submit their full name and email address to get informations in return.
 </div>
 
 <hr>
+
+<a name="testingcss"></a>
 
 <h3 align="center">CSS</h3>
 
@@ -376,6 +385,8 @@ validator
 </div>
 
 <hr>
+
+<a name="testingperformance"></a>
 
 <h3 align="center">PERFORMANCE</h3>
 
@@ -418,6 +429,8 @@ validator
     alt= GTMetrix test results combined />
 </div>
 
+<a name="testingresponsiveness"></a>
+
 <h3 align="center">RESPONSIVENESS</h3>
 
 - Tested in Chrome Dev Tools for sizes 320px - 2560px (small mobile to large laptops) with satysfing results
@@ -433,6 +446,8 @@ validator
 <hr>
 
 > # BUGS
+
+<a name="bugsfixed"></a>
 
 <h3 align="center">Fixed Bugs:</h3>
 
@@ -490,6 +505,9 @@ validator
 
 <br>
 <hr>
+
+<a name="bugsunfixed"></a>
+
 
 <h3 align="center">Unfixed Bugs:</h3>
 

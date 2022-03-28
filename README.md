@@ -419,9 +419,41 @@ validator
 
 <hr>
 
-# BUGS
+> # BUGS
 
 <h3 align="center">Fixed Bugs:</h3>
+
+- __Youtube embeding__
+- PROBLEM: While testing in W3C Markup validation service error about iframes code generated in http://youtubeembedcode.com/en/ for embeding youtube videos appeared, stating some atributes like: width height and type should not be used with this elements in HTML markup.
+- SOLUTION: Removing atributes from html file and including them in CSS file.
+- Code added:
+
+``` green
+.flex-container iframe {
+  width: 500px;
+  height: 50vh;
+  border: 0;
+  margin: 0;
+}
+```
+
+<hr>
+
+- __Graphics size__
+- PROBLEM: GTMetrix reports results show images size is slowing down the page loading time.
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/bugs/test5contactbeforefix.png" 
+    alt= Bug image size before />
+</div>
+- Solution: Used https://tinypng.com/ to compress images and reduce its size fixing the issue.
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/bugs/test5contactafterfix.png" 
+    alt= Bug image size after />
+</div>
+
+<hr>
+
 
 
 <h3 align="center">Unfixed Bugs:</h3>

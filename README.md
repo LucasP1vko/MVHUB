@@ -527,6 +527,8 @@ validator
 
 - Biggest support to my work on this website was [Code Institute](https://codeinstitute.net/ie/) where I learned how to use HTML and CSS.
 - Also content from [Stack Overflow](https://stackoverflow.com/) and [W3schools](https://www.w3schools.com/) was great support.
+
+<hr>
 ### Content
 
 - Description of device for the HOME page and Specifications used on SPECS page comes from official [Roland](https://www.roland.com/global/products/mv-8800/specifications/) website.
@@ -537,52 +539,26 @@ validator
 - Code used for glassmorph effect on footer was generated in Hype4 Academy [Glassmorphizm Generator](https://hype4.academy/tools/glassmorphism-generator).
 - Embeded video links on the VIDEO page and HOME page was generated in [YouTube embed code generator](http://youtubeembedcode.com/en/).
 - Idea for header for my readme file was taken from github user [Choojs](https://github.com/choojs/choo#readme) readme.
+- Badges used in Header of Readme file were created in [Shields](https://shields.io/) Quality metadata badges for open source projects.
+- Baner and all gif files used in readme were created in [Vista Create](https://create.vista.com/home/)
+- All screen recordings were done by [Vimeo Record](https://vimeo.com/features/screen-recorder?vcid=38697&utm_medium=cpc&utm_source=google&utm_campaign=screenrecord2020&gclid=Cj0KCQjw3IqSBhCoARIsAMBkTb29TFtJYfLrLm2GIf1J2c-l_NZMGdBOxb5LeIoDXQkQihHPnCByGAIaAgpmEALw_wcB&gclsrc=aw.ds) free screen recorder.
+- Video files convertion was done in [123Apps](https://video-converter.com/#) online video converter.
 
-
+<hr>
 
 
 ### Media
 
+- Colour palette was extracted from image and generated on [Coolors](https://coolors.co/) the super fast color palettes generator.
 - All photos used on the HOME and GALLERY page were taken by [Myselfe](https://github.com/LucasP1vko/) usind [Nikon D90]() camera.
-- The images editing was done in 
+- The images editing was done in [Adobe Photoshop Express](https://www.adobe.com/ie/products/photoshop-express.html).
+- The images compression was done in [TinyPng](https://tinypng.com/)
 - Fonts used in creating this website comes from[Google Fonts](https://fonts.google.com/).
 - Wordclouds used to create hero images on each page was generated in [Free onlin wordclouds generator](https://www.wordclouds.com/)
+- Synonyms for word clouds comes from [Thesaurus](https://www.thesaurus.com/) synonyms and anthonyms library.
 - Icons used in README file comes from [Unicode Emoji Charts](https://unicode.org/emoji/charts/full-emoji-list.html#1f30d)
 - The artwork used on top of style.css file was generated in [ASCII art generator](https://www.ascii-art-generator.org/). 
 - Button used in contact form on CONTACT page was generated in [CSS Button Generator](https://cssbuttongenerator.com/).
 - The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/)
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
-
-### Technology
-
-
-
-
-
-
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these
-projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started
-with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write
-a Git Commit Message
-- Make sure to keep the messages in the imperative mood
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific
-names and sections of content.
-- For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure
-that there are clear file paths kept.
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider
-reviewing the following list when getting started:
-- [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-- [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle,
-take small steps to reach the final outcome and enjoy the process!
+<hr>

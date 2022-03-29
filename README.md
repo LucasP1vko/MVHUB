@@ -574,7 +574,7 @@ validator
 ### Media
 
 - Colour palette was extracted from image and generated on [Coolors](https://coolors.co/) the super fast color palettes generator.
-- All photos used on the HOME and GALLERY page were taken by [Myselfe](https://github.com/LucasP1vko/) usind [Nikon D90]() camera.
+- All photos used on the HOME and GALLERY page were taken by [LucasP1vko(Myself)](https://github.com/LucasP1vko/) usind [Nikon D90]() camera.
 - The images editing was done in [Adobe Photoshop Express](https://www.adobe.com/ie/products/photoshop-express.html).
 - The images compression was done in [TinyPng](https://tinypng.com/)
 - Fonts used in creating this website comes from[Google Fonts](https://fonts.google.com/).

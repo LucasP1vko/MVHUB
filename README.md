@@ -74,6 +74,7 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
   * [Unfixed Bugs](#bugsunfixed)
 - [Credits](#credits)
   * [Content and resources](#content)
+  * [Media](#media)
   * [Technology Used](#technology)
 
 > # About
@@ -524,26 +525,43 @@ validator
 
 ## Credits
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to
-use code from other repositories and tutorials, however, it is important to be very specific about these sources to
-avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
+- Biggest support to my work on this website was [Code Institute](https://codeinstitute.net/ie/) where I learned how to use HTML and CSS.
+- Also content from [Stack Overflow](https://stackoverflow.com/) and [W3schools](https://www.w3schools.com/) was great support.
 ### Content
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube
-Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Description of device for the HOME page and Specifications used on SPECS page comes from official [Roland](https://www.roland.com/global/products/mv-8800/specifications/) website.
+- Embeded videos on VIDEO page comes from youtube [The Midi Maniac](https://www.youtube.com/c/RogerTheMIDIManiac) channel.
+- Instructions on how to implement CSS gallery on the Gallery page was taken from [Pure CSS Lightbox & Image Reflection Effect](https://www.youtube.com/watch?v=uAoB_zTLQo8) from PureCSS channel on YouTube.
+- Instructions on how to implement animated sliders on the navbar links was taken from [CSS Custom Checkbox UI Design | Html CSS](https://www.youtube.com/watch?v=IoROPvDgxkc&list=PLdCHlqeB2-azqgNRfkqmUrVwdqG_WWzGM&index=26) from Online Tutorials channel on YouTube.
+- Instructions on how to implement parallax effect on the hero images was taken from [Pure CSS Parallax Scrolling | No JavaScript | HTML & CSS](https://www.youtube.com/watch?v=6CQ7DYni7Bg) from Codegrid channel on YouTube.
+- Code used for glassmorph effect on footer was generated in Hype4 Academy [Glassmorphizm Generator](https://hype4.academy/tools/glassmorphism-generator).
+- Embeded video links on the VIDEO page and HOME page was generated in [YouTube embed code generator](http://youtubeembedcode.com/en/).
+- Idea for header for my readme file was taken from github user [Choojs](https://github.com/choojs/choo#readme) readme.
+
+
+
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- All photos used on the HOME and GALLERY page were taken by [Myselfe](https://github.com/LucasP1vko/) usind [Nikon D90]() camera.
+- The images editing was done in 
+- Fonts used in creating this website comes from[Google Fonts](https://fonts.google.com/).
+- Wordclouds used to create hero images on each page was generated in [Free onlin wordclouds generator](https://www.wordclouds.com/)
+- Icons used in README file comes from [Unicode Emoji Charts](https://unicode.org/emoji/charts/full-emoji-list.html#1f30d)
+- The artwork used on top of style.css file was generated in [ASCII art generator](https://www.ascii-art-generator.org/). 
+- Button used in contact form on CONTACT page was generated in [CSS Button Generator](https://cssbuttongenerator.com/).
+- The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/)
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+
+### Technology
+
+
+
+
+
+
 
 ## Other General Project Advice
 

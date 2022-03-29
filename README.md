@@ -75,7 +75,6 @@ logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2
 - [Credits](#credits)
   * [Content and resources](#content)
   * [Media](#media)
-  * [Technology Used](#technology)
 
 > # About
 

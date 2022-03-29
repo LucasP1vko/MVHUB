@@ -293,6 +293,10 @@ asked to submit their full name and email address to get informations in return.
     alt= HTML code structure presentation />
 </div>
 
+<br>
+
+- [Back to the top ☝](#menu)
+
 <hr>
 
 <a name="codecss"></a>
@@ -308,6 +312,10 @@ asked to submit their full name and email address to get informations in return.
   <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/structure_css_navigation_presentation.gif" width=750px 
     alt= CSS code structure presentation />
 </div>
+
+<br>
+
+- [Back to the top ☝](#menu)
 
 <hr>
 
@@ -365,6 +373,10 @@ asked to submit their full name and email address to get informations in return.
     alt= w3 html validator />
 </div>
 
+<br>
+
+- [Back to the top ☝](#menu)
+
 <hr>
 
 <a name="testingcss"></a>
@@ -383,6 +395,10 @@ validator
     </a>
   </p>
 </div>
+
+<br>
+
+- [Back to the top ☝](#menu)
 
 <hr>
 
@@ -528,7 +544,12 @@ validator
 - Biggest support to my work on this website was [Code Institute](https://codeinstitute.net/ie/) where I learned how to use HTML and CSS.
 - Also content from [Stack Overflow](https://stackoverflow.com/) and [W3schools](https://www.w3schools.com/) was great support.
 
+<br>
+
+- [Back to the top ☝](#menu)
+
 <hr>
+
 ### Content
 
 - Description of device for the HOME page and Specifications used on SPECS page comes from official [Roland](https://www.roland.com/global/products/mv-8800/specifications/) website.
@@ -543,6 +564,10 @@ validator
 - Baner and all gif files used in readme were created in [Vista Create](https://create.vista.com/home/)
 - All screen recordings were done by [Vimeo Record](https://vimeo.com/features/screen-recorder?vcid=38697&utm_medium=cpc&utm_source=google&utm_campaign=screenrecord2020&gclid=Cj0KCQjw3IqSBhCoARIsAMBkTb29TFtJYfLrLm2GIf1J2c-l_NZMGdBOxb5LeIoDXQkQihHPnCByGAIaAgpmEALw_wcB&gclsrc=aw.ds) free screen recorder.
 - Video files convertion was done in [123Apps](https://video-converter.com/#) online video converter.
+
+<br>
+
+- [Back to the top ☝](#menu)
 
 <hr>
 
@@ -560,5 +585,10 @@ validator
 - The artwork used on top of style.css file was generated in [ASCII art generator](https://www.ascii-art-generator.org/). 
 - Button used in contact form on CONTACT page was generated in [CSS Button Generator](https://cssbuttongenerator.com/).
 - The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/)
+
+<br>
+
+- [Back to the top ☝](#menu)
+
 
 <hr>
